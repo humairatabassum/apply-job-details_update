@@ -1,0 +1,2506 @@
+@media screen and (min-width:1201px) {
+    .col-md-9 {
+        padding-right: 0
+    }
+
+    .hj-row {
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex
+    }
+
+    .certificate-courses,
+    .workshop-training {
+        height: 620px
+    }
+
+    .category-col-2.m-active,
+    .category-col-3.m-active {
+        display: block
+    }
+
+    .promoArea .item {
+        height: 270px
+    }
+
+    .tenderSection .col-md-9 {
+        padding-right: 15px
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .division .btn {
+        padding: 3px 4px;
+        margin: 0 0 5px
+    }
+
+    .sliderSidebar {
+        min-height: 290px;
+        padding: 14px
+    }
+
+    .promoArea .item {
+        height: 270px
+    }
+
+    .category-col-2.m-active,
+    .category-col-3.m-active {
+        display: block
+    }
+
+    .inner-addon.keyword-search {
+        width: 52%
+    }
+
+    .cat-combo .form-control,
+    .inner-addon.keyword-search .form-control {
+        width: 100%
+    }
+
+    .category-list ul li {
+        font-size: 13px;
+        white-space: nowrap
+    }
+
+    .category-list {
+        padding: 0 15px 15px
+    }
+
+    .tab-header {
+        padding: 15px 10px 15px 15px
+    }
+
+    .col-md-9 {
+        padding-right: 15px
+    }
+
+    .hotJobsCompany .col-md-3.pr {
+        padding-left: 5px
+    }
+
+    .hj-row {
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex
+    }
+
+    .sidebar-common a .title-bn {
+        font-size: 16px
+    }
+
+    .jobCategory .tab,
+    .sidebar-common {
+        height: 390px
+    }
+
+    .sidebar-common {
+        height: 330px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .hotJobs.mobile {
+        background-color: #eee;
+        padding: 0 15px
+    }
+
+    .blueCollar {
+        margin-bottom: 10px
+    }
+
+    .jobCategory {
+        padding-bottom: 0
+    }
+
+    .navbar-nav>li>a span.badge.pull-right {
+        right: 15px !important;
+        position: absolute !important;
+        top: 5px
+    }
+
+    .c-card,
+    .logo,
+    .m-text-center,
+    .search-panel,
+    .sidebar-common h4,
+    .tab-header h2,
+    .timer h4 {
+        text-align: center
+    }
+
+    .companyDetails ul li a {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .companyDetails h5 {
+        font-size: 14px
+    }
+
+    .createAccount .modal-dialog {
+        margin-top: 20px
+    }
+
+    .job-seekers {
+        border-radius: 2px 2px 0 0
+    }
+
+    .for-employers {
+        border-radius: 0 0 2px 2px
+    }
+
+    .createAccount .modal-body {
+        padding: 0 30px
+    }
+
+    .feedback-left {
+        width: 110px;
+        height: 42px;
+        bottom: 0;
+        position: fixed;
+        margin-left: 0;
+        padding-top: 5px;
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    .feedback-left .btn {
+        font-size: 12px
+    }
+
+    .category-col-2.m-active,
+    .category-col-3.m-active {
+        display: none
+    }
+
+    .category-col-2.m-active.active,
+    .category-col-3.m-active.active {
+        display: block
+    }
+
+    .logo {
+        display: inline-block
+    }
+
+    .header {
+        padding: 0
+    }
+
+    .logo img {
+        width: 120px
+    }
+
+    .navbar-toggle {
+        margin: 0
+    }
+
+    .search-form .btn,
+    .search-form .inner-addon {
+        width: 100%;
+        margin: 0 0 8px
+    }
+
+    .search-form {
+        margin: 0 0 15px
+    }
+
+    .search-panel {
+        padding-top: 35px
+    }
+
+    .sliderSidebar {
+        min-height: auto;
+        height: auto;
+        margin: 0 0 25px;
+        padding-top: 0
+    }
+
+    .navbar-default .navbar-nav>li>a.login {
+        margin: 0 15px
+    }
+
+    .search-form {
+        margin-bottom: 0
+    }
+
+    .padding-mobile {
+        padding: 6px
+    }
+
+    .tab h4 {
+        float: none
+    }
+
+    .searchPanelContainer {
+        background-image: none;
+        background-color: #2f64a3;
+        color: #fff;
+        min-height: auto;
+        padding: 0
+    }
+
+    .searchPanelContainer h1 {
+        font-size: 24px;
+        color: #fff;
+        margin: 0 0 20px
+    }
+
+    .sliderSidebar h4 {
+        margin: 10px 0 0
+    }
+
+    .category-col-2,
+    .category-col-3 {
+        display: none
+    }
+
+    .navbar-option {
+        float: right
+    }
+
+    .navbar-header,
+    .navbar-logedin,
+    .navbar-user {
+        float: left;
+        padding-top: 0
+    }
+
+    .logo {
+        float: left
+    }
+
+    .tab-header h2 {
+        width: 100%;
+        font-size: 16px
+    }
+
+    .btn-group,
+    .tab-btn {
+        width: 100%
+    }
+
+    .tab-btn {
+        width: 100%;
+        margin: 5px 0 0
+    }
+
+    .jobCategory .tab-btn .btn {
+        width: 50%
+    }
+
+    .companyLogo {
+        margin: 0 auto;
+        width: 58px
+    }
+
+    .c-card .col-md-3 {
+        padding: 5px 15px 15px
+    }
+
+    .c-card .col-md-9 {
+        padding: 0 15px
+    }
+
+    .login-form {
+        margin-top: 7px
+    }
+
+    .jobCategory .tab {
+        height: auto;
+        padding: 5px;
+        margin-bottom: 10px
+    }
+
+    .govtJobs {
+        min-height: 190px
+    }
+
+    .sidebar-common .pager li>a {
+        font-size: 15px;
+        padding-left: 10px
+    }
+
+    .sidebar-common .pager {
+        padding: 5px 0
+    }
+
+    .ramadan-left {
+        width: 100px;
+        height: 24px;
+        top: 45%;
+        margin-left: -34px;
+        padding-top: 5px
+    }
+
+    .ramadan-left .btn {
+        font-size: 13px;
+        padding: 2px 10px
+    }
+
+    .ramadan {
+        top: 20px;
+        position: absolute;
+        height: auto;
+        bottom: auto
+    }
+
+    .time-counter h4 {
+        font-size: 20px
+    }
+
+    .navbar-user {
+        float: right;
+        padding: 20px 0 20px 0
+    }
+
+    .sidebar-common nav {
+        bottom: 6px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mobile-quick-links {
+        background-color: #fff;
+        display: block;
+        overflow: hidden;
+        padding: 20px;
+        color: #212121;
+        border-radius: 4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+        margin: 15px 15px 0
+    }
+
+    .quick-links h4 {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #505458;
+        margin-bottom: 15px
+    }
+
+    .quick-links {
+        margin: 0 0 20px
+    }
+
+    .quick-links ul li a {
+        color: #424242;
+        font-size: 13px;
+        padding-bottom: 10px;
+        display: block
+    }
+
+    .quick-links ul li a:hover {
+        color: #2f64a3
+    }
+
+    .quick-links.desktop * {
+        color: #fff !important;
+        text-align: left !important
+    }
+
+    .quick-links.desktop ul li a.yellow,
+    .quick-links.desktop ul li a.yellow i,
+    .quick-links.desktop ul li a.yellow:hover {
+        color: #ffd180 !important
+    }
+
+    .mobile-padding,
+    .search-form {
+        padding: 0
+    }
+
+    .navbar {
+        float: none;
+        width: 100%
+    }
+
+    .navbar-default .navbar-collapse {
+        border-top: 1px solid #e0e0e0;
+        margin-top: 45px;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        z-index: 5;
+        left: 0;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, .35)
+    }
+
+    .sliderSidebar {
+        padding: 0;
+        height: auto
+    }
+
+    .c-card.br {
+        border-bottom: 1px solid #ddd;
+        border-right: none
+    }
+
+    .more-jobs {
+        display: block
+    }
+
+    .more-jobs-btn {
+        display: none
+    }
+
+    .footer-section h4 {
+        margin-top: 15px
+    }
+
+    .promo-area .btn {
+        display: block
+    }
+
+    .promo-area .btn.btn-login {
+        margin: 5px 0 0
+    }
+
+    .user-details img {
+        height: 40px;
+        width: 40px
+    }
+
+    .user-details {
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5
+    }
+
+    .user-details a {
+        display: block;
+        padding: 10px 15px 10px 30px;
+        color: #fff
+    }
+
+    .c-card,
+    .hj-row.grey,
+    .hj-row.grey .hotJobsCompany {
+        background-color: #fff
+    }
+
+    .offset-menu .wrapper {
+        display: block;
+        right: -290px
+    }
+
+    .offset-menu.active {
+        right: 0
+    }
+
+    .navbar-nav>li>a {
+        font-size: 13px;
+        padding: 15px 30px;
+        text-align: left;
+        font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+    }
+
+    .c-card {
+        height: auto;
+        padding: 0 15px 5px
+    }
+
+    .notification-icon .dropdown-menu {
+        right: 0;
+        left: auto;
+        margin: 17px 0 0
+    }
+
+    .notification-mobile {
+        margin: 7px 5px 15px 0
+    }
+
+    .navbar-user {
+        padding: 0
+    }
+
+    .navbar-user .btn-login {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: #2f64a3;
+        margin-right: 5px;
+        padding: 5px 10px 6px
+    }
+
+    .notification-mobile li.notification-icon {
+        margin-right: 20px
+    }
+
+    .btn-f-more {
+        margin-bottom: 20px
+    }
+
+    .workshop-training {
+        margin-bottom: 15px
+    }
+
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 20px 10px 40px;
+        font-size: 13px
+    }
+
+    .navbar-option .nav {
+        display: inline-block
+    }
+
+    .navbar-user {
+        display: inline-block;
+        padding: 16px 7px;
+        font-size: 11px
+    }
+
+    .navbar-option .nav>li>a {
+        padding: 18px 7px 22px 7px;
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .hj-row {
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex
+    }
+
+    .login-form {
+        margin-top: 2px
+    }
+
+    .header {
+        padding: 0
+    }
+
+    .navbar-user ul li.offset-mobile a {
+        padding-top: 3px
+    }
+
+    .navbar-user>.btn-login {
+        margin: 0 7px;
+        font-size: 10px
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        padding: 16px 7px;
+        font-size: 11px
+    }
+
+    ul li.offset-mobile a {
+        margin: 8px 0 0;
+        font-size: 11px
+    }
+
+    .navbar-user ul li a {
+        font-size: 11px;
+        padding: 16px 0 16px 7px !important
+    }
+
+    .navbar-option .nav {
+        display: inline-block
+    }
+
+    .navbar-user {
+        display: inline-block;
+        padding: 16px 7px;
+        font-size: 11px
+    }
+
+    .navbar-option .nav>li>a {
+        padding: 18px 0 20px 0
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.modal {
+    z-index: 999999 !important
+}
+
+[data-target="#caModal"] {
+    cursor: pointer
+}
+
+.modal-backdrop.in.header-mobile-menu {
+    display: none;
+    height: 100%
+}
+
+.clearfix {
+    display: block;
+    overflow: hidden
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    position: relative;
+    z-index: 5;
+    display: block;
+    margin-bottom: 20px
+}
+
+.m-times {
+    color: #ff3d00;
+    font-size: 16px;
+    margin-right: 10px;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+}
+
+.header .container {
+    margin: 0 auto
+}
+
+.logo {
+    float: left
+}
+
+.logo img {
+    padding-top: 10px
+}
+
+.header ul.navbar-nav {
+    float: right
+}
+
+.header .navbar-nav>li {
+    list-style: none
+}
+
+.header .navbar-nav {
+    margin: 0;
+    padding-left: 0
+}
+
+.header .navbar-nav>li>a {
+    color: #424242;
+    font-size: 13px;
+    text-transform: none;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif;
+    padding: 20px 10px;
+    text-decoration: none;
+    overflow: hidden
+}
+
+.header .navbar-nav>li.notification-list>a {
+    padding: 20px 10px 20px 10px
+}
+
+.header .navbar-nav>li>a:hover,
+.header .navbar-nav>li>a:focus,
+.navbar-nav>li.active>a {
+    color: #2F64A3;
+    background-color: #f5f5f5
+}
+
+.header .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid #000000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+.navbar {
+    margin-bottom: 0 !important
+}
+
+.header .dropdown-menu>li>a,
+.phone-show.dropdown-menu>li>a {
+    display: block;
+    padding: 6px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap
+}
+
+.header .dropdown-menu>li>a i {
+    font-size: 14px;
+    margin: 0 10px 0 0
+}
+
+.header .dropdown-menu>li>a:hover,
+.header .dropdown-menu>li>a:focus,
+.phone-show.dropdown-menu>li>a:hover,
+.phone-show.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #2F64A3 !important;
+    background-color: #f5f5f5 !important;
+    border-color: #337ab7
+}
+
+.header .navbar-nav>li>.dropdown-menu,
+.phone-show.dropdown-menu {
+    margin-top: 1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: 2px solid #2F64A3
+}
+
+.header .dropdown-menu>li>a,
+.phone-show.dropdown-menu>li>a {
+    font-size: 12px;
+    color: #777777;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+}
+
+.header li.career-list {
+    position: relative
+}
+
+.header:before,
+.header:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+
+.header:after {
+    clear: both
+}
+
+.header .inner-addon {
+    position: relative;
+    color: #616161;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.header .inner-addon i {
+    position: absolute;
+    margin: 10px 0 0 10px;
+    font-size: 14px
+}
+
+.header .badge {
+    display: inline-block;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #777777;
+    border-radius: 10px
+}
+
+.header .bubble {
+    background-color: #dd2c00;
+    font-size: 10px;
+    border: 1px solid #ffffff;
+    float: right;
+    margin: -10px 0 0 6px;
+    position: absolute
+}
+
+.header .bubble.opera {
+    padding: 0 4px;
+    margin: -10px -20px 0 0;
+    right: 3px
+}
+
+.header #messages i {
+    font-size: 14px;
+    margin: 0 10px 0 0
+}
+
+.header #messages .dropdown-menu {
+    padding-top: 0
+}
+
+.header #messages {
+    padding-top: 0;
+    min-width: 220PX
+}
+
+.header #messages {
+    font-size: 12px
+}
+
+.header #messages i {
+    font-size: 14px;
+    margin: 0 10px 0 0
+}
+
+.header #messages i.icon-angle-down {
+    margin: 0
+}
+
+.header #messages .dropdown-menu {
+    padding-top: 0
+}
+
+.header .activity-summary {
+    background-color: #eeeeee;
+    padding: 15px 20px
+}
+
+.header .activity-summary h5 {
+    font-size: 14px;
+    margin: 2px
+}
+
+.header .activity-summary span {
+    line-height: 18px;
+    font-size: 12px
+}
+
+.header .badge.nf {
+    right: 10px;
+    border-radius: 5px;
+    position: absolute;
+    color: #2f64a3;
+    background-color: transparent
+}
+
+.header #messages li {
+    list-style: none;
+    float: left
+}
+
+.header #messages li a {
+    display: block;
+    padding: 10px 15px
+}
+
+.header #messages li {
+    list-style: none;
+    width: 100%
+}
+
+.header #messages li.disable a:hover,
+.header #messages li.disable a:focus {
+    background: #FFFFFF !important;
+    color: #777777 !important
+}
+
+.header #messages li a.user-dropdown {
+    padding: 15px 5px;
+    display: block
+}
+
+.user-details img {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px 0 0;
+    border-radius: 25px;
+    border: 2px solid #bdbdbd;
+    vertical-align: middle
+}
+
+.header .user-details li {
+    list-style: none
+}
+
+.header .user-details>a {
+    padding: 15px 5px 15px 5px !important
+}
+
+.header .navbar-toggle {
+    display: none !important
+}
+
+.header span.icon-bar {
+    background-color: #a6a6a6 !important
+}
+
+.header .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+
+.header li.login {
+    vertical-align: top;
+    padding-top: 13px
+}
+
+.header li.login .btn-login {
+    background: #2b882f;
+    margin: 0 10px 0 15px;
+    border: 1px solid #2b882f;
+    padding: 6px 12px 6px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif;
+    color: #FFFFFF
+}
+
+.header li.login .btn-login:hover,
+.header li.login .btn-login:focus {
+    background-color: #29612B !important;
+    color: #FFFFFF !important
+}
+
+.phone-show.dropdown-menu {
+    top: 0;
+    right: -500px;
+    width: 250px;
+    min-height: 100%;
+    position: fixed;
+    background: #FFFFFF;
+    padding-left: 0;
+    float: right;
+    left: auto;
+    z-index: 99999;
+    height: 100%;
+    overflow-y: scroll;
+    display: block
+}
+
+.modal-backdrop.in.header-mobile-menu.active {
+    display: block;
+    z-index: 99
+}
+
+.m-down-list {
+    display: block;
+    float: left;
+    padding: 5px auto;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #ffffff;
+    display: none
+}
+
+.phone-show.dropdown-menu>li.m-menu {
+    width: 100%
+}
+
+.phone-show.dropdown-menu>li.m-menu>a,
+.phone-show.dropdown-menu>li.close-btn>a {
+    font-size: 12px !important;
+    padding: 15px 20px !important;
+    text-align: left !important;
+    font-family: 'Inter', sans-serif !important;
+    text-transform: none !important;
+    color: #212121
+}
+
+.phone-show.dropdown-menu .m-list .m-down-list {
+    background: #FFFFFF;
+    list-style: none
+}
+
+.m-down-list>li>a {
+    display: block;
+    padding: 6px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+    list-style: none
+}
+
+.phone-show.dropdown-menu>li.close-btn>a {
+    color: #a6a6a6;
+    text-transform: uppercase
+}
+
+.phone-show.dropdown-menu>.close-btn>a:hover,
+.phone-show.dropdown-menu>.close-btn>a:focus {
+    text-decoration: none !important;
+    color: #333333 !important;
+    background-color: #FFFFFF !important;
+    text-align: left !important
+}
+
+.m-down-list>li>a {
+    font-size: 12px;
+    color: #777777;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+}
+
+.phone-show.dropdown-menu .user-details.m-menu .m-down-list {
+    padding-top: 0;
+    margin: 0;
+    min-width: 100%
+}
+
+.phone-show .user-details.m-menu .m-down-list li a {
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none
+}
+
+.navbar-nav .switch {
+    display: none !important
+}
+
+.phone-show .switch {
+    display: block !important
+}
+
+body>.container {
+    overflow: hidden !important
+}
+
+.header .login-list {
+    position: relative
+}
+
+.header span.user-name {
+    text-transform: none !important
+}
+
+.login-form {
+    width: 360px;
+    position: absolute;
+    background-color: #ffffff;
+    right: 145px;
+    border-top: 2px solid #2f64a3;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .35);
+    border-radius: 0 0 4px 4px;
+    z-index: 99999;
+    display: none;
+    top: 62px
+}
+
+.login-form.active {
+    display: block
+}
+
+.login-jobseeker {
+    background-image: url(../images/job-seeker-bg.jpg);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background-size: contain
+}
+
+.login-corporate {
+    display: none;
+    background-image: url(../images/corporate-bg.jpg);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background-size: contain
+}
+
+.login-form .tab .btn.active {
+    background-color: #ffffff;
+    border: 1px solid #2f64a3;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 4px 4px 0 0;
+    color: #2f64a3;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    box-shadow: none
+}
+
+.login-form .tab .btn-group {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 25px 25px 0 25px
+}
+
+.login-form .tab .btn {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: 1px solid #2F64A3;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    color: #bdbdbd;
+    margin: 0 0 15px 0;
+    box-shadow: none;
+    width: 50%;
+    padding: 8px 0;
+    outline: none;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+}
+
+.login-form .checkbox {
+    margin: 20px 0 8px 0
+}
+
+.login-form .tab .btn:hover {
+    color: #2F64A3
+}
+
+.login-form .tab .btn-group .btn:first-child {
+    border-radius: 4px 4px 0 0
+}
+
+.login-form label {
+    font-weight: normal
+}
+
+.login-form input.form-control {
+    padding-left: 30px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.login-form input.u-name {
+    margin: 0 0 15px 0
+}
+
+.login-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #2F64A3
+}
+
+.login-form .btn-login {
+    margin: 10px 0 5px 0;
+    width: 100%;
+    border: 1px solid #43A047;
+    background-color: #43a047 !important
+}
+
+.login-form .btn-login:hover {
+    background-color: #39873D !important
+}
+
+.login-form .inner-addon i {
+    margin-left: 0;
+    color: #a6a6a6
+}
+
+.for-pass {
+    color: #212121;
+    text-align: center;
+    display: block;
+    margin: 8px 0 12px 0;
+    font-size: 15px
+}
+
+.for-pass:hover,
+.for-pass:focus {
+    color: #2F64A3 !important;
+    text-decoration: none
+}
+
+.login-form .btn-create {
+    float: right;
+    background-color: #ffffff;
+    color: #43A047;
+    border: 1px solid #43A047;
+    margin: 6px 0 0 0
+}
+
+.login-form .btn-create:hover {
+    background-color: #43A047;
+    border: 1px solid #43A047;
+    color: #ffffff;
+    text-decoration: none
+}
+
+.login-form .new-account p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #424242;
+    margin: 15px 0;
+    float: left
+}
+
+.login-menu {
+    padding: 0
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control::-moz-placeholder {
+    color: #999999;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999999
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999999
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.new-account {
+    margin: 0;
+    padding: 12px 0 0 0
+}
+
+.login-form .tab .btn.corporate {
+    margin-left: 0
+}
+
+.createAccount {
+    z-index: 9999
+}
+
+.createAccount .modal-content {
+    border-radius: 2px;
+    padding: 0 0 40px 0;
+    border: none;
+    background-image: url(../images/ca_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%
+}
+
+.createAccount .modal-header {
+    border: none
+}
+
+.createAccount .modal-header h4 {
+    font-size: 24px;
+    color: #212121;
+    margin: 0 0 10px 0;
+    padding: 10px 15px 0 15px
+}
+
+.createAccount .modal-header p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #616161
+}
+
+.createAccount .modal-body {
+    padding: 0 50px
+}
+
+.createAccount .modal-dialog {
+    margin-top: 150px
+}
+
+.createAccount .job-seekers,
+.createAccount .for-employers {
+    background-color: #68aa47;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 2px 0 0 2px;
+    min-height: 280px;
+    padding: 40px 20px
+}
+
+.createAccount .for-employers {
+    background-color: #0b5f8a;
+    border-radius: 0 2px 2px 0
+}
+
+.createAccount .job-seekers h5,
+.createAccount .for-employers h5 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0 10px 0
+}
+
+.createAccount .job-seekers p,
+.createAccount .for-employers p {
+    font-size: 14px;
+    color: #ffffff;
+    opacity: .8
+}
+
+.createAccount .job-seekers .btn,
+.createAccount .for-employers .btn {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    color: #68aa47;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif;
+    padding: 10px 20px;
+    margin: 10px 0 0 0
+}
+
+.createAccount .job-seekers .btn:hover {
+    background-color: #68aa47;
+    color: #ffffff;
+    border: 1px solid #ffffff
+}
+
+.createAccount .for-employers .btn:hover {
+    background-color: #0b5f8a;
+    color: #ffffff;
+    border: 1px solid #ffffff
+}
+
+.createAccount .for-employers .btn {
+    color: #0b5f8a
+}
+
+.createAccount .modal-body .col-md-6 {
+    padding: 0
+}
+
+@media screen and (max-width:991px) {
+    .logo {
+        float: left;
+        text-align: center;
+        display: inline-block
+    }
+
+    .header {
+        padding: 0 0
+    }
+
+    .logo img {
+        width: 90px;
+        padding-top: 20px
+    }
+
+    .header .navbar-nav>li>a {
+        padding: 20px 10px 20px 10px;
+        font-size: 10px
+    }
+
+    .header .navbar-nav>li.notification-list>a {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+
+    .login-form {
+        right: 115px;
+        left: auto
+    }
+
+    .createAccount .modal-dialog {
+        margin-top: 20px
+    }
+
+    li.employabilite {
+        position: relative
+    }
+
+    li.employabilite a span.badge.pull-right {
+        right: 15px !important;
+        position: absolute !important
+    }
+}
+
+@media screen and (min-width:767px) {
+
+    .phone-show.dropdown-menu,
+    .modal-backdrop.in.header-mobile-menu.active {
+        display: none
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header #messages {
+        top: 110%;
+        left: auto;
+        right: 0
+    }
+
+    .header .navbar-toggle {
+        display: block !important
+    }
+
+    .header .navbar-nav>li>a,
+    .header .navbar-nav>li.notification-list>a {
+        padding: 10px 10px 10px 10px
+    }
+
+    .header li.login {
+        padding-top: 8px
+    }
+
+    .login-form {
+        top: 5px;
+        right: 14px;
+        left: auto
+    }
+
+    .header li.login .btn-login {
+        background: #FFFFFF;
+        border: 1px solid #ffffff;
+        color: #2F64A3
+    }
+}
+
+@media screen and (max-width:450px) {
+    .login-form {
+        top: 5px;
+        right: -56px;
+        left: auto
+    }
+}
+
+@media screen and (max-width:360px) {
+    .login-form {
+        top: 5px;
+        right: -56px;
+        left: auto;
+        width: 280px
+    }
+
+    .header li.login .btn-login {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media screen and (max-width:300px) {
+    .header #messages {
+        right: -65px
+    }
+}
+
+@media screen and (max-width:250px) {
+    .phone-show.dropdown-menu {
+        width: 200px;
+        display: block
+    }
+}
+
+.social-button {
+    margin: 0 0 10px 0
+}
+
+.social-signin h5 {
+    margin: 0 0 10px 0;
+    position: relative;
+    top: 7px
+}
+
+.social-button .btn {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 8px 4px 8px !important;
+    margin: 10px 5px 0 0 !important
+}
+
+.social-button .btn i {
+    margin-right: 5px
+}
+
+.social-button p {
+    font-style: italic;
+    color: #616161;
+    margin: 10px 0 10px 0
+}
+
+.btn-google,
+.btn-google:focus {
+    background-color: #df4a32 !important;
+    color: #ffffff !important;
+    border: #df4a32 !important
+}
+
+.btn-google:hover {
+    background-color: #b83b28 !important;
+    color: #ffffff !important
+}
+
+.btn-facebook,
+.btn-facebook:focus {
+    background-color: #3b5998 !important;
+    color: #ffffff !important;
+    border: #3b5998 !important
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373 !important;
+    color: #ffffff !important
+}
+
+.btn-linkedin,
+.btn-linkedin:focus {
+    background-color: #0077b5 !important;
+    color: #ffffff !important;
+    border: #0077b5 !important
+}
+
+.btn-linkedin:hover {
+    background-color: #005d8f !important;
+    color: #ffffff !important
+}
+
+.social-modal .modal-header {
+    background-color: #0e73a9;
+    border-radius: 6px 6px 0 0;
+    padding: 12px 0
+}
+
+.social-modal .modal-header h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 20px
+}
+
+.social-modal .close {
+    color: #ffffff;
+    opacity: 1;
+    margin-right: 10px
+}
+
+.social-modal img.logo-in-modal {
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px
+}
+
+.social-modal .modal-body span.email {
+    color: #0e73a9;
+    font-weight: 600
+}
+
+.social-modal .modal-body {
+    padding: 15px 0;
+    height: 420px;
+    overflow-y: scroll
+}
+
+.social-modal .border {
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 10px
+}
+
+.social-modal .account-list {
+    margin-top: 15px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.social-modal .user-account {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 15px 10px 15px
+}
+
+.social-modal .user-account:hover {
+    background-color: #f5f5f5
+}
+
+.social-modal .account-list a {
+    display: block;
+    text-decoration: none
+}
+
+.social-modal .user-account img {
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+    height: 64px;
+    width: 64px
+}
+
+.social-modal .account-info {
+    display: inline-block;
+    padding: 10px 0 0 0
+}
+
+.social-modal .account-list .btn-default {
+    display: inline-block;
+    float: right;
+    margin: 15px 0 0 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: #69aa44;
+    font-weight: 600
+}
+
+.social-modal .account-list .btn-default:hover {
+    background-color: #69aa44;
+    border: 1px solid #69aa44;
+    color: #ffffff
+}
+
+.social-modal .account-info ul {
+    margin: 0;
+    padding: 0
+}
+
+.social-modal .account-info ul li {
+    display: block;
+    list-style: none
+}
+
+.social-modal .account-info ul li .grey {
+    color: #757575;
+    font-weight: 400
+}
+
+.social-modal .account-info ul li span {
+    font-weight: 600
+}
+
+.social-modal-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+.layer-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.social-modal-container .modal {
+    margin-top: 50px
+}
+
+.social-modal {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: block;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+@media only screen and (min-width:991px) {
+    .social-modal .modal-dialog {
+        width: 500px
+    }
+
+    .spinner-container {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        display: none
+    }
+
+    .spinner-container .layer-mask {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .6)
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mobile-quick-links {
+        background-color: #fff;
+        display: block;
+        overflow: hidden;
+        padding: 20px;
+        color: #212121;
+        border-radius: 4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+        margin: 15px 15px 0
+    }
+
+    .quick-links h4 {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #505458;
+        margin-bottom: 15px
+    }
+
+    .quick-links {
+        margin: 0 0 20px
+    }
+
+    .quick-links ul li a {
+        color: #424242;
+        font-size: 13px;
+        padding-bottom: 10px;
+        display: block
+    }
+
+    .quick-links ul li a:hover {
+        color: #2f64a3
+    }
+
+    .quick-links.desktop * {
+        color: #fff !important;
+        text-align: left !important
+    }
+
+    .quick-links.desktop ul li a.yellow,
+    .quick-links.desktop ul li a.yellow i,
+    .quick-links.desktop ul li a.yellow:hover {
+        color: #ffd180 !important
+    }
+
+    .logo img {
+        width: 104px;
+        padding-top: 12px
+    }
+
+    .mobile-padding,
+    .search-form {
+        padding: 0
+    }
+
+    .navbar {
+        float: none;
+        width: 100%
+    }
+
+    .navbar-default .navbar-collapse {
+        border-top: 1px solid #e0e0e0;
+        margin-top: 45px;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        z-index: 5;
+        left: 0;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, .35)
+    }
+
+    .sliderSidebar {
+        padding: 0;
+        height: auto
+    }
+
+    .c-card.br {
+        border-bottom: 1px solid #ddd;
+        border-right: none
+    }
+
+    .more-jobs {
+        display: block
+    }
+
+    .more-jobs-btn {
+        display: none
+    }
+
+    .footer-section h4 {
+        margin-top: 15px
+    }
+
+    .promo-area .btn {
+        display: block
+    }
+
+    .promo-area .btn.btn-login {
+        margin: 5px 0 0
+    }
+
+    .user-details img {
+        height: 40px;
+        width: 40px
+    }
+
+    .user-details {
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5
+    }
+
+    .user-details a {
+        display: block;
+        padding: 10px 15px 10px 30px;
+        color: #fff
+    }
+
+    .c-card,
+    .hj-row.grey,
+    .hj-row.grey .hotJobsCompany {
+        background-color: #fff
+    }
+
+    .offset-menu .wrapper {
+        display: block;
+        right: -290px
+    }
+
+    .offset-menu.active {
+        right: 0
+    }
+
+    .navbar-nav>li>a {
+        font-size: 13px;
+        padding: 15px 30px;
+        text-align: left;
+        font-family: 'Inter', Noto Sans Bengali UI, ui-icon, sans-serif
+    }
+
+    .c-card {
+        height: auto;
+        padding: 0 15px 5px
+    }
+
+    .notification-icon .dropdown-menu {
+        right: 0;
+        left: auto;
+        margin: 17px 0 0
+    }
+
+    .notification-mobile {
+        margin: 7px 5px 15px 0
+    }
+
+    .navbar-user {
+        padding: 0
+    }
+
+    .navbar-user .btn-login {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: #2f64a3;
+        margin-right: 5px;
+        padding: 5px 10px 6px
+    }
+
+    .notification-mobile li.notification-icon {
+        margin-right: 20px
+    }
+
+    .btn-f-more {
+        margin-bottom: 20px
+    }
+
+    .workshop-training {
+        margin-bottom: 15px
+    }
+
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 20px 10px 30px;
+        font-size: 13px
+    }
+
+    .navbar-option .nav {
+        display: inline-block
+    }
+
+    .navbar-user {
+        display: inline-block;
+        padding: 16px 7px;
+        font-size: 11px
+    }
+
+    .navbar-option .nav>li>a {
+        padding: 18px 7px 22px 7px;
+        font-size: 13px
+    }
+
+    .header .navbar-nav .m-menu {
+        display: none
+    }
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.header .navbar-nav>li.notification-icon>a.dropdown-toggle,
+.header .navbar-nav>li.message-icon>a.dropdown-toggle {
+    line-height: 1.5;
+    padding: 18px 10px 18px 10px;
+    font-size: 16px
+}
+
+.message-icon .dropdown-menu,
+.navbar-nav .notification-icon .dropdown-menu,
+.notification-icon,
+.user-details {
+    padding: 0;
+    margin: 0
+}
+
+.user-details a.user-dropdown {
+    display: inline-flex;
+    align-items: center
+}
+
+.user-details a span.user-name {
+    white-space: nowrap;
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis
+}
+
+.user-details a span.darow {
+    margin-top: 4px;
+    margin-left: 5px
+}
+
+.user-details .dropdown-menu {
+    right: 0;
+    left: auto
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.notification-icon .nbdge,
+.message-icon .mnbdge {
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 4px;
+    background-color: #DD2C00;
+    border: 2px solid #FFFFFF;
+    color: #ffffff;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    border-radius: 6px
+}
+
+.navbar-nav .notification-icon .dropdown-menu,
+.navbar-nav .message-icon .dropdown-menu,
+.notification-icon,
+.user-details {
+    padding: 0;
+    margin: 0
+}
+
+.notification-icon .dropdown-menu,
+.message-icon .dropdown-menu {
+    min-width: 300px;
+    max-height: 406px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: auto;
+    right: 0
+}
+
+.sidebar-common .carousel {
+    z-index: 1
+}
+
+.notification-icon .dropdown-menu .unot-wrap,
+.message-icon .dropdown-menu .mesnot-wrap {
+    background-color: #ffffff
+}
+
+.notification-icon .dropdown-menu .unot-wrap .toptitle,
+.message-icon .dropdown-menu .mesnot-wrap .toptitle {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 16;
+    font-weight: bold
+}
+
+.notification-icon .dropdown-menu .unot-wrap .unlstb,
+.message-icon .dropdown-menu .mesnot-wrap .melstb {
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: center
+}
+
+.notification-icon .dropdown-menu .unot-wrap .unlstb .unlacti,
+.message-icon .dropdown-menu .mesnot-wrap .melstb .meslacti {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+    font-style: italic
+}
+
+.notification-icon .dropdown-menu .unot-wrap .unlstb .unvall,
+.message-icon .dropdown-menu .mesnot-wrap .melstb .mesvall {
+    margin-top: 12px
+}
+
+.notification-icon .dropdown-menu .unot-wrap .unlstb .unvall .vabtn,
+.message-icon .dropdown-menu .mesnot-wrap .melstb .mesvall .vabtn {
+    border: 1px solid #595959;
+    background-color: #ffffff;
+    color: #595959;
+    padding: 8px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.notification-icon .dropdown-menu .unot-wrap .unlstb .unvall .vabtn:hover,
+.notification-icon .dropdown-menu .unot-wrap .unlstb .unvall .vabtn:focus,
+.message-icon .dropdown-menu .mesnot-wrap .melstb .mesvall .vabtn:hover,
+.message-icon .dropdown-menu .mesnot-wrap .melstb .mesvall .vabtn:focus {
+    border: 1px solid #595959;
+    background-color: #595959;
+    color: #ffffff
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst {
+    text-decoration: none;
+    color: #000000
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst,
+.message-icon .dropdown-menu .mesnot-wrap .melst {
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    align-items: flex-start
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.martn,
+.message-icon .dropdown-menu .mesnot-wrap .melst.martm {
+    background-color: #ffffff
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst .icowrap {
+    margin-right: 10px
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst .icowrap .ico {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #595959
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst .ncont {
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst .ncont .nfnme {
+    font-weight: bold
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst .ncont .nltme {
+    color: #595959;
+    line-height: 1.5;
+    text-align: right
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.gi .icowrap .ico {
+    background-color: #AD6200
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.vi .icowrap .ico {
+    background-color: #0B818E
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.cv .icowrap .ico {
+    background-color: #405BC9
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.vres .icowrap .ico {
+    background-color: #9D0191
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.emsg .icowrap .ico {
+    background-color: #007E6E
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.mj .icowrap .ico {
+    background-color: #333333
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.rt .icowrap .ico {
+    background-color: #AC016D
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.lvi .icowrap .ico {
+    background-color: #F71673
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.isch .icowrap .ico {
+    background-color: #333333
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.jansms .icowrap .ico {
+    background-color: #B83100
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.onex .icowrap .ico {
+    background-color: #0E73A9
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mesgico {
+    position: relative
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mesgico .ico {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #20655D;
+    margin-right: 10px
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mesgico img {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont {
+    position: relative
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont {
+    position: relative
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact {
+    position: relative
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact a {
+    text-decoration: none;
+    color: #000000
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact .mesgtitle {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: bold
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact .mesgdes {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact .bimegbann {
+    position: relative;
+    margin-top: 9px;
+    max-width: 225px;
+    max-height: 90px;
+    background-color: #767676;
+    border-radius: 4px;
+    overflow: hidden
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .topact a:focus .bimegbann {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact .bvactbtn {
+    border: 1px solid #595959;
+    background-color: #ffffff;
+    color: #595959;
+    padding: 8px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact .bvactbtn:hover,
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact .bvactbtn:focus {
+    border: 1px solid #595959;
+    background-color: #595959;
+    color: #ffffff
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact .nltme {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    color: #595959;
+    line-height: 1.5
+}
+
+.message-icon .dropdown-menu .mesnot-wrap .melst .mescont .botmact .nltme .ico {
+    margin-right: 5px;
+    color: #595959
+}
+
+.header .navbar-nav .dropdown-toggle:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+@media screen and (max-width:991px) {
+    .header .navbar-nav>.user-details a.user-dropdown {
+        padding: 12px 6px
+    }
+
+    .header .navbar-toggle:focus {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px
+    }
+
+    .header .navbar-nav .notification-icon .dropdown-toggle,
+    .header .navbar-nav .message-icon .dropdown-toggle {
+        color: #424242;
+        padding: 20px 10px 20px 10px;
+        font-size: 14px;
+        line-height: 1.5
+    }
+
+    .header .navbar-nav .notification-icon .dropdown-toggle:hover,
+    .header .navbar-nav .message-icon .dropdown-toggle:hover,
+    .header .navbar-nav .notification-icon .dropdown-toggle:focus,
+    .header .navbar-nav .message-icon .dropdown-toggle:focus {
+        color: #23527c
+    }
+
+    .notification-only-mobile .notification-icon .nbdge,
+    .notification-only-mobile .message-icon .mnbdge {
+        display: inline-block;
+        padding: 0 2px;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 4px;
+        background-color: #DD2C00;
+        border: 2px solid #FFFFFF;
+        color: #ffffff;
+        position: absolute;
+        top: 0;
+        right: -2px;
+        border-radius: 6px
+    }
+
+    .header .navbar-nav>li.notification-icon>a.dropdown-toggle,
+    .header .navbar-nav>li.message-icon>a.dropdown-toggle {
+        line-height: 1.5;
+        padding: 20px 10px 20px 10px
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .header .navbar-toggle:hover,
+    .header .open>a {
+        outline: thin dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px
+    }
+
+    .phone-show .user-details.m-menu a.user-dropdown {
+        display: flex
+    }
+
+    .user-details a span.user-name {
+        max-width: 135px
+    }
+
+    .phone-show .dropdown-menu>li>a:hover {
+        color: #23527c
+    }
+
+    .user-details a.user-dropdown:focus,
+    .user-details a.user-dropdown:hover {
+        background-color: #eee;
+        color: #23527c
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 0;
+        -webkit-box-shadow: 0 12px 20px rgba(0, 0, 0, .5);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, .5);
+        background-clip: padding-box
+    }
+
+    .user-details a.user-dropdown {
+        display: flex
+    }
+
+    .user-details a:focus,
+    .user-details a:hover {
+        background-color: #eee;
+        color: #23527c
+    }
+
+    .user-details a.user-dropdown:hover,
+    .user-details a.user-dropdown:focus {
+        background-color: #eee;
+        color: #23527c
+    }
+
+    .user-details a span {
+        white-space: normal;
+        word-break: break-word;
+        max-width: 130px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        position: relative;
+        line-height: 1.5
+    }
+
+    .header .navbar-nav>li>a.navbar-toggle {
+        padding: 20px 10px 20px 10px
+    }
+
+    .header .navbar-nav>li.notification-icon>a.dropdown-toggle,
+    .header .navbar-nav>li.message-icon>a.dropdown-toggle {
+        line-height: 1.5;
+        padding: 15px 10px 15px 10px
+    }
+
+    .header .navbar-nav>li {
+        list-style: none;
+        display: inline-block
+    }
+
+    .notification-icon .nbdge,
+    .message-icon .mnbdge {
+        display: inline-block;
+        padding: 0 2px;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 4px;
+        background-color: #DD2C00;
+        border: 2px solid #FFFFFF;
+        color: #ffffff;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        border-radius: 6px
+    }
+
+    .m-menu.open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+@media screen and (max-width:420px) {
+    .notification-icon .dropdown-menu {
+        right: -48px
+    }
+}
+
+@media screen and (max-width:375px) {
+    .notification-icon .dropdown-menu {
+        min-width: 262px
+    }
+
+    .message-icon .dropdown-menu {
+        min-width: 280px
+    }
+
+    .message-icon .dropdown-menu {
+        right: -30px
+    }
+}
+
+.notification-icon .dropdown-menu .unot-wrap .nlst.onex .icowrap .ico.imsg {
+    background-color: #008A22 !important;
+}
+
+.notifmsg-wrap .tab-content .lon .nlst.onex .nlcont .ico.imsg {
+    background-color: #008A22;
+}

@@ -1,0 +1,566 @@
+.tenms__wrapper {
+    background: #fbfbfb;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    color: #656565
+}
+
+.tenms__crs {
+    max-height: 100px;
+    background: url('../images/tenms-crs-bg1.jpg');
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex !important;
+    align-items: center;
+    border: .5px solid #0d64a4;
+    height: 100px
+}
+
+.tenms__wrapper .bdjobs__elearning {
+    border: .5px solid #0d64a4;
+    overflow: hidden;
+}
+
+.tenms__wrapper .tenmins__course {
+    border: 0.5px solid #00000038;
+    overflow: hidden;
+}
+
+.tenmscrs__item {
+    padding: 6px 8px
+}
+
+.tenms__crs .brnd__sec {
+    flex: .6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px 8px 3px 8px;
+    min-height: 90px
+}
+
+.tenms__crs .brnd__sec .brnd__title {
+    padding: 6px 8px;
+    background: rgba(255, 255, 255, .6);
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    color: #fff;
+
+}
+
+.tenms__crs .cta__sec {
+    flex: .4;
+    padding: 6px 8px;
+    background: rgba(13, 100, 164, .9);
+    color: #fff
+}
+
+.tenms__crs.tenmins__course .cta__sec {
+    flex: .4;
+    padding: 6px 8px;
+    background: rgba(51, 51, 51, 0.90);
+    color: #fff;
+    border-radius: 4px;
+    height: 100%;
+    padding-top: 10px;
+    position: relative;
+}
+
+.tenms__crs.tenmins__course .cta__sec .crdrightcontent {
+    z-index: 10;
+}
+
+.tenms__crs.tenmins__course.wadhwani .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8B4200;
+    z-index: 1;
+    opacity: .8;
+}
+
+.wadhwani .wadhwani__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wadhwani .wadhwani__content .content {
+    color: #BC2328;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.wadhwani .wadhwani__content .content__sec {
+    background-color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    backdrop-filter: blur(10);
+}
+
+@media screen and (max-width:400px) {
+    .wadhwani .wadhwani__content .content__sec {
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 4px;
+    }
+
+    .wadhwani .wadhwani__content .content {
+        color: #BC2328;
+        text-align: center;
+        font-size: 6px;
+        line-height: 1.5;
+    }
+}
+
+.tenms__crs .cta__sec .cta__sub {
+    font-size: 12px;
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    padding-bottom: 4px;
+    z-index: 10;
+}
+
+.tenms__crs .cta__sec .regbtn {
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    background: rgba(255, 255, 255, .2);
+    margin-top: 5px;
+    z-index: 10;
+}
+
+.tenms__crs .cta__sec .price {
+    white-space: nowrap;
+    width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.tenms__crs .cta__sec .instructor {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+
+}
+
+.tenms__crs .cta__sec .btn {
+    padding: 4px 12px
+}
+
+.tenms__crs .cta__sec .btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, .3)
+}
+
+.job-preview .right .panel-body.relvwrapper,
+.job-preview .right .panel-body.relvwrapper .tenms__wrapper,
+.panel-body.relvwrapper {
+    background-color: #f5f5f5
+}
+
+.tenms__crs .brnd__logo {
+    max-width: 60px;
+    max-height: 40px
+}
+
+.tenms__crs .brnd__logo img {
+    max-width: 100%
+}
+
+.bgred {
+    background: red
+}
+
+.slick-slide>div {
+    padding: 0 8px
+}
+
+.slick-next .slick-next-icon::before,
+.slick-next .slick-prev-icon::before,
+.slick-prev .slick-next-icon::before,
+.slick-prev .slick-prev-icon::before {
+    font-family: ui-icon;
+    font-size: 14px;
+    color: #595959;
+    line-height: 1
+}
+
+.slick-prev .slick-prev-icon::before {
+    content: "\aa91c"
+}
+
+.slick-next .slick-next-icon::before {
+    content: "\aa91d"
+}
+
+.slick-slider {
+    margin-bottom: 0
+}
+
+.slick-list {
+    margin: 20px -5px 0
+}
+
+.slick-autoplay-toggle-button {
+    left: 0;
+    bottom: auto;
+    top: -30px
+}
+
+.slick-next {
+    top: -30px;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    right: 0;
+    left: auto
+}
+
+.slick-prev {
+    top: -30px;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    right: 50px;
+    left: auto
+}
+
+.slick-next:focus,
+.slick-prev:focus {
+    top: -30px
+}
+
+.slick-next .slick-next-icon,
+.slick-next .slick-prev-icon,
+.slick-prev .slick-next-icon,
+.slick-prev .slick-prev-icon {
+    font-family: ui-icon;
+    font-size: 14px
+}
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon {
+    font-size: 14px;
+    outline: auto
+}
+
+.training.details .panel-body {
+    min-height: 180px
+}
+
+.slick-autoplay-toggle-button:focus,
+.slick-autoplay-toggle-button:hover {
+    outline: auto
+}
+
+.slick-autoplay-toggle-button .slick-pause-icon::before,
+.slick-autoplay-toggle-button .slick-play-icon::before {
+    font-family: slick;
+    font-size: 14px;
+    line-height: 1 !important;
+    text-align: center
+}
+
+.slick-autoplay-toggle-button:focus {
+    color: #333
+}
+
+.training .panel-default.relvmain {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    overflow: hidden
+}
+
+.job-preview .training .relvmain .panel-heading {
+    background-color: #37474f;
+    margin-bottom: 15px
+}
+
+.job-preview .right .panel-body .relvcourse span {
+    padding: 0;
+    border-bottom: none
+}
+
+.panel-body.relvwrapper {
+    padding: 0
+}
+
+.panel-body.relvwrapper .slick-slide>div {
+    padding: 0 3px
+}
+
+.job-preview .right.training .panel-body.relvwrapper {
+    padding: 0 !important;
+    border: 1px solid transparent
+}
+
+.tenms__wrapper.relvcourse {
+    background: #fbfbfb;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    border: 1px solid transparent
+}
+
+.relvwrapper .relvcourse .relv__sec {
+    display: flex;
+    flex-direction: column
+}
+
+.relvwrapper .relvcourse .brnd__content {
+    padding: 15px 15px 8px 15px;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__img img {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__img {
+    position: relative;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__img .brnd__logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    height: 40px;
+    width: 90px;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__img .brnd__logo img {
+    width: 100%;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__content {
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__content .amount,
+.relvwrapper .relvcourse .relv__sec .brnd__content .name,
+.relvwrapper .relvcourse .relv__sec .brnd__content .time {
+    display: flex;
+    align-items: center;
+    gap: 7px
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__content .regbtn {
+    background: #ac016d;
+    color: #fff
+}
+
+
+.relvwrapper .relvcourse .brnd__content .title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.relvwrapper .relvcourse .brnd__content .name,
+.relvwrapper .relvcourse .brnd__content .time {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px
+}
+
+.relvwrapper .relvcourse .brnd__content .instructor {
+    max-width: 200px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: 2px;
+}
+
+.relvwrapper .relvcourse .brnd__content .price {
+    color: #ac016d;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px
+}
+
+.relvwrapper .relvcourse .slick-autoplay-toggle-button {
+    left: 10px
+}
+
+.relvwrapper .relvcourse .slick-autoplay-toggle-button .slick-pause-icon::before {
+    font-size: 16px
+}
+
+@media only screen and (min-width:0px) and (max-width:991px) {
+
+    .jdfx .relvwrapper .relvcourse .brnd__content :first-child,
+    .jdfx .relvwrapper .relvcourse .brnd__content :nth-child(2),
+    .jdfx .relvwrapper .relvcourse .brnd__content :nth-child(3),
+    .jdfx .relvwrapper .relvcourse .brnd__content :nth-child(4) {
+        order: initial !important
+    }
+}
+
+.tenmns__crs h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333
+}
+
+@media screen and (max-width: 425px) {
+    .tenms__wrapper {
+        padding: 15px 7px;
+    }
+
+    .tenms__crs .cta__sec .regbtn {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .slick-slide>div {
+        padding: 0;
+        overflow: hidden;
+    }
+
+}
+
+.tenms__crs .brnd__sec .brnd__title {
+    padding: 4px 8px 2px 8px;
+    border-radius: 4px;
+    color: #333;
+}
+
+
+.tenms__crs.tenmins__course .cta__sec {
+    border-radius: 0;
+    height: 100%;
+}
+
+.tenms__crs .cta__sec .cta__sub {
+    padding-bottom: 1px;
+}
+
+.tenms__crs.tenmins__course .cta__sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0px;
+    padding-top: 6px;
+    border-radius: 0;
+}
+
+.relvwrapper .relvcourse .brnd__content .name {
+    padding-bottom: 0;
+}
+
+.relvwrapper .relvcourse .brnd__content .amount {
+    margin-bottom: 1px;
+}
+
+.relvwrapper .relvcourse .brnd__content .name {
+    margin-bottom: 4px;
+}
+
+.relvwrapper .relvcourse .brnd__content .time {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.relvwrapper .relvcourse .brnd__content .instructor {
+    -webkit-line-clamp: 1 !important;
+}
+
+/* .relvwrapper .relvcourse .brnd__content .time {
+    margin-bottom: 30px;
+    } */
+
+
+.cta__sec {
+    border-radius: 0;
+    height: 100%;
+}
+
+.cta__sub {
+    padding-bottom: 1px;
+}
+
+.cta__sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 6px;
+    border-radius: 0;
+}
+
+.relvwrapper .relvcourse .brnd__content .amount {
+    margin-bottom: 4px;
+}
+
+.relvwrapper .relvcourse .brnd__content .name {
+    margin-bottom: 6px;
+}
+
+/* .relvwrapper .relvcourse .brnd__content .time {
+    margin-bottom: 34px;
+} */
+
+.relvwrapper .relvcourse .brnd__content .title {
+    margin-bottom: 6px;
+    height: 47px;
+}
+
+.relv__sec .brnd__content .content__sec {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+.relv__sec .regbt__sec {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.relv__sec .regbtnbottom {
+    background: #ac016d;
+    color: #fff;
+    width: 100%;
+}
+
+.relvwrapper .relvcourse .relv__sec .brnd__content .time span {
+    margin-left: 1px;
+}
+
+.tenms__crs .cta__sec .regbtn {
+    margin-top: 0px !important;
+}
