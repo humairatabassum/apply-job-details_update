@@ -1881,9 +1881,9 @@
 
                                             <!-- changes by humaira  -->
                                             <!-- matching, expectations -->
-                                            <div class="row mb-3">
+                                            <div class="row  mb-3">
                                                 <div class="col-sm-12">
-                                                    <div class="panel-group " id="accordion" role="tablist"
+                                                    <div class="panel-group borderChange" id="accordion" role="tablist"
                                                         aria-multiselectable="true">
                                                         <div class="panel panel-default  insightsWrap">
                                                             <div class="panel-heading matching_job" role="tab"
@@ -1896,8 +1896,9 @@
                                                                         <div class="insightTitle">
                                                                             <div><img src="./images/insight.svg">
                                                                                 Application Insights</div>
-                                                                            <div><span>View</span><i
-                                                                                    class="icon-angle-up"></i>
+                                                                            <div class="InsightsView">
+                                                                                <span>View</span><i
+                                                                                    class="icon-angle-up ianglup"></i>
                                                                             </div>
                                                                         </div>
                                                                     </a>
@@ -1907,14 +1908,14 @@
                                                             <div id="collapseOne" class="panel-collapse collapse in"
                                                                 role="tabpanel" aria-labelledby="headingOne">
                                                                 <div class="panel-body padding-0">
-                                                                    <div class="row">
-                                                                        <div class="col-sm-3 ">
-                                                                            <div class="appWrap applicants">
+                                                                    <div class=" res-row">
+                                                                        <div class="as-col-4 res-padding ">
+                                                                            <div class="appWrap applicants ">
                                                                                 <div class="appliedNumber">300</div>
-                                                                                <div>Applied so far</div>
+                                                                                <div class="appliedCount">Applied so far</div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-9 paddingMatch">
+                                                                        <div class="as-col-8 paddingMatch res-padding">
                                                                             <div class="tooltipWrap">
                                                                                 <div class="matching-box">
                                                                                     <img src="./images/Frame.svg">
@@ -2075,10 +2076,10 @@
                                                                                     <span>Salary Expectations:</span>
                                                                                     <span>Most applicants preferred
                                                                                         salary range
-                                                                                        <strong>60k-80k</strong></span>
+                                                                                        <strong class="expSalary">60k-80k</strong></span>
                                                                                 </div>
 
-                                                                                <a href="#" class="tooltipLink"
+                                                                                <a href="#" class="tooltipLink expTooltip"
                                                                                     class="btn btn-default"
                                                                                     data-toggle="tooltip"
                                                                                     data-placement="left"
@@ -3688,16 +3689,17 @@ $(document).ready(function () {
             var barWidth = document.getElementById('bar').offsetWidth;
             var position = (percentage / 100) * barWidth;
             handler.style.left = position + 'px';
+             document.documentElement.style.setProperty('--position-of-label', position + 'px');
             if (position < 200) {
                 document.querySelector('.handler-label').style.textAlign = 'right';
-                handlerLabel.style.left = (position + 75) + 'px';
+                handlerLabel.style.left = (position + 60) + 'px';
             } else {
                 document.querySelector('.handler-label').style.textAlign = 'left';
-                handlerLabel.style.left = (position - 45) + 'px';
+                handlerLabel.style.left = (position - 13) + 'px';
             }
             handlerLabel.innerHTML = ' (' + percentage + '% applicants have more matching than you) ';
         }
-        var positionFromDatabase = 45;
+        var positionFromDatabase = 70;
         setHandlerPosition(positionFromDatabase);
 
         // For Experience bar
@@ -3708,10 +3710,10 @@ $(document).ready(function () {
             var textWidth = experience_handlerLabel.offsetWidth;
             var position = (percentage / 15) * experience_barWidth;
             experience_handler.style.left = position + 'px';
-            experience_handlerLabel.style.left = (position) + 'px';
-            experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span>(' + percentage + 'Y)</span>';
+            experience_handlerLabel.style.left = (position+10) + 'px';
+            experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span class="experience-year">(' + percentage + 'Y)</span>';
         }
-        var positionFromDatabases = 1;
+        var positionFromDatabases = 11;
         setexperience_handlerPosition(positionFromDatabases);
     </script>
 
