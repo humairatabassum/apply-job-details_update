@@ -2187,7 +2187,12 @@ a:focus {
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
 
 
-  .handler-label{
+  .handler-label.left{
+    top: -27px;
+      left: calc(var(--position-of-label) - 97px) !important;
+  }
+  .handler-label.right{
+    top: -27px;
       left: calc(var(--position-of-label) + 97px) !important;
   }
 

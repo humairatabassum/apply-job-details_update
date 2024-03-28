@@ -3693,9 +3693,13 @@ $(document).ready(function () {
             if (position < 200) {
                 document.querySelector('.handler-label').style.textAlign = 'right';
                 handlerLabel.style.left = (position + 60) + 'px';
+                handlerLabel.classList.remove('left');
+                handlerLabel.classList.add('right');
             } else {
                 document.querySelector('.handler-label').style.textAlign = 'left';
                 handlerLabel.style.left = (position - 13) + 'px';
+                 handlerLabel.classList.remove('right');
+                handlerLabel.classList.add('left');
             }
             handlerLabel.innerHTML = ' (' + percentage + '% applicants have more matching than you) ';
         }
