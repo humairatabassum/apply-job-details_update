@@ -1912,7 +1912,8 @@
                                                                         <div class="as-col-4 res-padding ">
                                                                             <div class="appWrap applicants ">
                                                                                 <div class="appliedNumber">300</div>
-                                                                                <div class="appliedCount">Applied so far</div>
+                                                                                <div class="appliedCount">Applied so far
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="as-col-8 paddingMatch res-padding">
@@ -2076,10 +2077,12 @@
                                                                                     <span>Salary Expectations:</span>
                                                                                     <span>Most applicants preferred
                                                                                         salary range
-                                                                                        <strong class="expSalary">60k-80k</strong></span>
+                                                                                        <strong
+                                                                                            class="expSalary">60k-80k</strong></span>
                                                                                 </div>
 
-                                                                                <a href="#" class="tooltipLink expTooltip"
+                                                                                <a href="#"
+                                                                                    class="tooltipLink expTooltip"
                                                                                     class="btn btn-default"
                                                                                     data-toggle="tooltip"
                                                                                     data-placement="left"
@@ -3689,22 +3692,38 @@ $(document).ready(function () {
             var barWidth = document.getElementById('bar').offsetWidth;
             var position = (percentage / 100) * barWidth;
             handler.style.left = position + 'px';
-             document.documentElement.style.setProperty('--position-of-label', position + 'px');
-            if (position < 200) {
-                document.querySelector('.handler-label').style.textAlign = 'right';
-                handlerLabel.style.left = (position + 60) + 'px';
-                handlerLabel.classList.remove('left');
-                handlerLabel.classList.add('right');
-            } else {
-                document.querySelector('.handler-label').style.textAlign = 'left';
-                handlerLabel.style.left = (position - 13) + 'px';
-                 handlerLabel.classList.remove('right');
-                handlerLabel.classList.add('left');
+            document.documentElement.style.setProperty('--position-of-label', position + 'px');
+            if (window.innerWidth < 768) {
+                if (position < 90) {
+                    document.querySelector('.handler-label').style.textAlign = 'right';
+                    handlerLabel.style.left = (position + 60) + 'px';
+                    handlerLabel.classList.remove('left_p');
+                    handlerLabel.classList.add('right_p');
+                } else {
+                    document.querySelector('.handler-label').style.textAlign = 'left';
+                    handlerLabel.style.left = (position - 58) + 'px';
+                    handlerLabel.classList.remove('right_p');
+                    handlerLabel.classList.add('left_p');
+                }
+            }
+            else{
+                if (position < 180) {
+                    document.querySelector('.handler-label').style.textAlign = 'right';
+                    handlerLabel.style.left = (position + 60) + 'px';
+                    handlerLabel.classList.remove('left_p');
+                    handlerLabel.classList.add('right_p');
+                } else {
+                    document.querySelector('.handler-label').style.textAlign = 'left';
+                    handlerLabel.style.left = (position - 58) + 'px';
+                    handlerLabel.classList.remove('right_p');
+                    handlerLabel.classList.add('left_p');
+                }
             }
             handlerLabel.innerHTML = ' (' + percentage + '% applicants have more matching than you) ';
         }
-        var positionFromDatabase = 70;
+        var positionFromDatabase = 90;
         setHandlerPosition(positionFromDatabase);
+
 
         // For Experience bar
         var experience_handler = document.getElementById('experience_handler');
@@ -3714,7 +3733,9 @@ $(document).ready(function () {
             var textWidth = experience_handlerLabel.offsetWidth;
             var position = (percentage / 15) * experience_barWidth;
             experience_handler.style.left = position + 'px';
-            experience_handlerLabel.style.left = (position+10) + 'px';
+
+            document.documentElement.style.setProperty('--exp-label', position + 'px');
+            experience_handlerLabel.style.left = (position + 10) + 'px';
             experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span class="experience-year">(' + percentage + 'Y)</span>';
         }
         var positionFromDatabases = 11;

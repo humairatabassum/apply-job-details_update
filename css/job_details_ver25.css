@@ -1818,14 +1818,14 @@ a:focus {
   background: #efffef;
 }
 
-.as-col-4{
+.as-col-4 {
   width: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: #efffef;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #efffef;
+
 }
 
 .padding-0 {
@@ -2033,15 +2033,283 @@ a:focus {
   margin-right: 4px;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+
+  .handler-label.left_p {
+    top: -27px;
+    left: calc(var(--position-of-label) - 75px) !important;
+    text-align: center !important;
+  }
+
+  .handler-label.right_p {
+    top: -27px;
+    left: calc(var(--position-of-label) + 57px) !important;
+  }
+
+
+  .as-col-4 {
+    width: 300px;
+  }
+
 
   .matching-box .bar,
   .experience_bar {
-    width: 350px;
+    width: 300px;
+    height: 15px;
+  }
+
+  .section-label,
+  .experience_section-label {
+    font-size: 12px;
+    bottom: -22px;
+  }
+
+  .color-box,
+  .experience-color-box {
+    width: 15px;
+    height: 15px;
+    bottom: -22px;
+  }
+
+  .matching-label,
+  .experience-label {
+    font-size: 12px;
+    bottom: -38px;
+  }
+
+  .handler,
+  .experience_handler {
+    height: 28px;
+    top: -13px;
+  }
+
+  .black-text {
+    top: -14px;
+    left: -7px;
+  }
+
+  .handler-label,
+  .experience_handler-label {
+    top: -27px;
+    width: 176px;
+  }
+
+  .handler-label,
+  .experience-black-text,
+  .black-text {
+
+    font-size: 10px !important;
+  }
+
+  .experience-year {
+    font-size: 10px !important;
+  }
+
+  .tooltipLink {
+    font-size: 12px;
+  }
+
+  .expTooltip {
+    margin-top: -12px;
+  }
+
+  .experience-box,
+  .matching-box {
+    margin-right: 5px;
+    gap: 5px;
+  }
+
+  .section-label.label1 {
+    left: calc(14%) !important;
+  }
+
+  .section-label.label2 {
+    left: calc(37%) !important;
+  }
+
+  .section-label.label3 {
+    left: calc(61%) !important;
+  }
+
+  .section-label.label4 {
+    left: calc(85%) !important;
+  }
+
+  .color-box.box1 {
+    left: calc(15%) !important;
+  }
+
+  .color-box.box2 {
+    left: calc(38%) !important;
+  }
+
+  .color-box.box3 {
+    left: calc(62%) !important;
+  }
+
+  .color-box.box4 {
+    left: calc(85%) !important;
+  }
+
+  .matching-label.match_lab1 {
+    left: calc(10%) !important;
+  }
+
+  .matching-label.match_lab2 {
+    left: calc(37%) !important;
+  }
+
+  .matching-label.match_lab3 {
+    left: calc(62%) !important;
+  }
+
+  .matching-label.match_lab4 {
+    left: calc(85%) !important;
+  }
+
+  .experience_section-label.label1 {
+    left: calc(12%) !important;
+  }
+
+  .experience_section-label.label2 {
+    left: calc(35%) !important;
+  }
+
+  .experience_section-label.label3 {
+    left: calc(60%) !important;
+  }
+
+  .experience_section-label.label4 {
+    left: calc(82%) !important;
+  }
+
+  .experience-color-box.box1 {
+    left: calc(15%) !important;
+  }
+
+  .experience-color-box.box2 {
+    left: calc(38%) !important;
+  }
+
+  .experience-color-box.box3 {
+    left: calc(62%) !important;
+  }
+
+  .experience-color-box.box4 {
+    left: calc(85%) !important;
+  }
+
+  .experience-label.ex_lab1 {
+    left: calc(13%) !important;
+  }
+
+  .experience-label.ex_lab1 {
+    left: calc(36%) !important;
+  }
+
+  .experience-label.ex_lab1 {
+    left: calc(61%) !important;
+  }
+
+  .experience-label.ex_lab1 {
+    left: calc(86%) !important;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .handler-label.left_p {
+    top: -27px;
+    left: calc(var(--position-of-label) - 60px) !important;
+    text-align: center !important;
+  }
+
+  .handler-label.right_p {
+    top: -27px;
+    left: calc(var(--position-of-label) + 57px) !important;
+  }
+
+
+  .as-col-4 {
+    width: 300px;
+  }
+
+
+  .matching-box .bar,
+  .experience_bar {
+    width: 210px;
+    height: 10px;
+  }
+
+  .section-label,
+  .experience_section-label {
+    font-size: 12px;
+    bottom: -18px;
+  }
+
+  .color-box,
+  .experience-color-box {
+    width: 8px;
+    height: 8px;
+    bottom: -16px;
+  }
+
+  .matching-label,
+  .experience-label {
+    font-size: 12px;
+    bottom: -30px;
+  }
+
+  .handler,
+  .experience_handler {
+    height: 23px;
+    top: -13px;
+  }
+
+  .black-text {
+    top: -14px;
+    left: -7px;
+  }
+
+  .handler-label,
+  .experience_handler-label {
+    top: -27px;
+    width: 105px;
+  }
+
+  .handler-label,
+  .experience-black-text,
+  .black-text {
+
+    font-size: 10px !important;
+  }
+
+  .experience-year {
+    font-size: 10px !important;
+  }
+
+  .tooltipLink {
+    font-size: 12px;
+  }
+
+  .expTooltip {
+    margin-top: -12px;
+  }
+
+  .experience-box,
+  .matching-box {
+    margin-right: 5px;
+    gap: 5px;
+  }
+
+  .appliedNumber {
+    font-size: 20px;
+  }
+
+  .paddingMatch {
+    padding: 20px 10px 20px 0;
+  }
 
   .matching-box,
   .experience-box,
@@ -2057,26 +2325,21 @@ a:focus {
 
   .color-box,
   .experience-color-box {
-    width: 15px;
-    height: 15px;
-  }
-
-  .matching-box .bar,
-  .experience_bar {
-    width: 190px;
+    width: 12px;
+    height: 12px;
   }
 
   .handler-label,
   .black-text {
-    font-size: 6px !important;
+    font-size: 8px !important;
   }
 
   .section-label.label1 {
-    left: calc(18%) !important;
+    left: calc(16%) !important;
   }
 
   .section-label.label2 {
-    left: calc(42%) !important;
+    left: calc(40%) !important;
   }
 
   .section-label.label3 {
@@ -2096,11 +2359,11 @@ a:focus {
   }
 
   .color-box.box3 {
-    left: calc(62%) !important;
+    left: calc(63%) !important;
   }
 
   .color-box.box4 {
-    left: calc(85%) !important;
+    left: calc(87%) !important;
   }
 
   .matching-label.match_lab1 {
@@ -2168,103 +2431,18 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 767px) {
-
-  .res-row {
-    gap: 8px;
-  }
-
-  .paddingMatch {
-    padding: 5px 8px 0 5px;
-  }
-
-  .matching-box .bar,
-  .experience_bar {
-    width: 380px;
-  }
-}
-
-@media only screen and (min-width: 991px) and (max-width: 1199px) {
-
-
-  .handler-label.left{
-    top: -27px;
-      left: calc(var(--position-of-label) - 97px) !important;
-  }
-  .handler-label.right{
-    top: -27px;
-      left: calc(var(--position-of-label) + 97px) !important;
-  }
-
-
-  .as-col-4 {
-    width: 300px;
-  }
-
-
-  .matching-box .bar,
-  .experience_bar {
-    width: 300px;
-    height: 15px;
-  }
-
-  .section-label,
-  .experience_section-label {
-    font-size: 12px;
-    bottom: -18px;
-  }
-
-  .color-box,
-  .experience-color-box {
-    width: 8px;
-    height: 8px;
-    bottom: -16px;
-  }
-
-  .matching-label,
-  .experience-label {
-    font-size: 12px;
-    bottom: -30px;
-  }
-
-  .handler,
-  .experience_handler {
-    height: 28px;
-    top: -13px;
-  }
-
-  .black-text {
-    top: -14px;
-    left: -7px;
-  }
-
-  .handler-label,
-  .experience_handler-label {
-    top: -27px;
-    width: 176px;
-  }
-
-  .handler-label,
-  .experience-black-text,
-  .black-text {
-
-    font-size: 10px !important;
-  }
-
-  .experience-year {
-    font-size: 10px !important;
-  }
-
-  .tooltipLink {
-    font-size: 12px;
-  }
-
-  .expTooltip {
-    margin-top: -12px;
-  }
-}
 @media only screen and (min-width: 500px) and (max-width: 768px) {
 
+
+  .handler-label.left_p {
+    top: -16px;
+    left: calc(var(--position-of-label) - 40px) !important;
+  }
+
+  .handler-label.right_p {
+    top: -16px;
+    left: calc(var(--position-of-label) + 36px) !important;
+  }
 
   .as-col-4 {
     width: 180px;
@@ -2274,16 +2452,34 @@ a:focus {
     width: 410px;
   }
 
+  .appliedNumber {
+    font-size: 14px;
+  }
+
+  .appliedCount {
+    font-size: 10px;
+  }
+
   .matching-box .bar,
   .experience_bar {
     width: 220px;
     height: 10px;
   }
 
+  .matching-box,
+  .experience-box,
+  .expectation-box {
+    font-size: 12px !important;
+    font-weight: 500;
+    margin-right: 5px;
+    gap: 5px;
+  }
+
   .section-label,
   .experience_section-label {
     font-size: 8px;
     bottom: -18px;
+
   }
 
   .color-box,
@@ -2313,7 +2509,7 @@ a:focus {
   .handler-label,
   .experience_handler-label {
     top: -18px;
-    width: 100px;
+    width: 76px;
   }
 
   .handler-label,
@@ -2334,9 +2530,40 @@ a:focus {
   .expTooltip {
     margin-top: -12px;
   }
+
+  .paddingMatch {
+    padding: 10px 5px 20px 0;
+  }
+
+  .color-box.box1 {
+    left: calc(33%) !important;
+  }
+
+  .color-box.box2 {
+    left: calc(53%) !important;
+  }
+
+  .color-box.box3 {
+    left: calc(73%) !important;
+  }
+
+  .color-box.box4 {
+    left: calc(89%) !important;
+  }
+
 }
 
-@media only screen and (min-width: 401px) and (max-width: 500px) {
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+
+  .handler-label.left_p {
+    top: -16px;
+    left: calc(var(--position-of-label) - 40px) !important;
+  }
+
+  .handler-label.right_p {
+    top: -16px;
+    left: calc(var(--position-of-label) + 36px) !important;
+  }
 
   .as-col-4 {
     width: 60px;
@@ -2346,10 +2573,31 @@ a:focus {
     width: 310px;
   }
 
+  .appliedNumber {
+    font-size: 14px;
+  }
+
+  .appliedCount {
+    font-size: 10px;
+  }
+
+  .paddingMatch {
+    padding: 15px 10px 15px 0;
+  }
+
   .matching-box .bar,
   .experience_bar {
     width: 162px;
     height: 10px;
+  }
+
+  .matching-box,
+  .experience-box,
+  .expectation-box {
+    font-size: 12px !important;
+    font-weight: 500;
+    margin-right: 5px;
+    gap: 5px;
   }
 
   .section-label,
@@ -2409,6 +2657,37 @@ a:focus {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 400px) {
+
+
+  .handler-label.left_p {
+    top: -16px;
+    left: calc(var(--position-of-label) - 40px) !important;
+  }
+
+  .handler-label.right_p {
+    top: -16px;
+    left: calc(var(--position-of-label) + 36px) !important;
+  }
+
+  .experience_handler-label{
+    left: calc(var(--exp-label) + 5px) !important;
+  }
+
+  .as-col-4 {
+    width: 150px;
+  }
+
+  .appliedNumber {
+    font-size: 14px;
+  }
+
+  .appliedCount {
+    font-size: 10px;
+  }
+
+  .paddingMatch {
+    padding: 15px 10px 15px 0;
+  }
 
   .section-label,
   .experience_section-label {
@@ -2564,15 +2843,3 @@ a:focus {
     font-weight: 500;
   }
 }
-
-@media only screen and (max-width: 767px) {
-  .appliedNumber {
-    font-size: 14px;
-  }
-
-  .appliedCount {
-    font-size: 10px;
-  }
-}
-
-@media only screen and (max-width: 768px) {}
