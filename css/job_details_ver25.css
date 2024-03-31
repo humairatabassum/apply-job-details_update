@@ -1904,10 +1904,10 @@ a:focus {
 
 .handler {
   width: 1px;
-  height: 30px;
+  height: 38px;
   background-color: black;
   position: absolute;
-  top: -5px;
+  top: -18px;
   transform: translateX(-50%);
   cursor: pointer;
 }
@@ -1924,10 +1924,21 @@ a:focus {
   text-align: start;
   width: 100%;
   position: absolute;
-  top: -25px;
+  top: -38px;
   transform: translateX(-50%);
   font-size: 12px;
   color: #b32d7d;
+  width: 150px;
+}
+
+.handler-label.left_p {
+  text-align: right;
+  left: calc(var(--position-of-label) - 92px) !important;
+}
+
+.handler-label.right_p {
+  text-align: left;
+  left: calc(var(--position-of-label) + 92px) !important;
 }
 
 .paddingMatch {
@@ -2007,7 +2018,7 @@ a:focus {
   height: 30px;
   background-color: black;
   position: absolute;
-  top: -5px;
+  top: -10px;
   transform: translateX(-50%);
   cursor: pointer;
 }
@@ -2015,7 +2026,7 @@ a:focus {
 .experience_handler-label {
   display: flex;
   position: absolute;
-  top: -25px;
+  top: -32px;
   transform: translateX(-50%);
   font-size: 12px;
   color: #b32d7d;
@@ -2037,16 +2048,20 @@ a:focus {
 
 
   .handler-label.left_p {
-    top: -27px;
-    left: calc(var(--position-of-label) - 75px) !important;
-    text-align: center !important;
+    top: -31px;
+    left: calc(var(--position-of-label) - 70px) !important;
+    text-align: right;
   }
 
   .handler-label.right_p {
-    top: -27px;
-    left: calc(var(--position-of-label) + 57px) !important;
+    text-align: left;
+    top: -31px;
+    left: calc(var(--position-of-label) + 72px) !important;
   }
 
+  .experience_handler-label {
+    left: calc(var(--exp-label) + 44px) !important;
+  }
 
   .as-col-4 {
     width: 300px;
@@ -2080,8 +2095,8 @@ a:focus {
 
   .handler,
   .experience_handler {
-    height: 28px;
-    top: -13px;
+    height: 32px;
+    top: -17px;
   }
 
   .black-text {
@@ -2092,7 +2107,7 @@ a:focus {
   .handler-label,
   .experience_handler-label {
     top: -27px;
-    width: 176px;
+    width: 120px;
   }
 
   .handler-label,
@@ -2222,14 +2237,18 @@ a:focus {
   .handler-label.left_p {
     top: -27px;
     left: calc(var(--position-of-label) - 60px) !important;
-    text-align: center !important;
+    text-align: right;
   }
 
   .handler-label.right_p {
     top: -27px;
-    left: calc(var(--position-of-label) + 57px) !important;
+    left: calc(var(--position-of-label) + 60px) !important;
+    text-align: left;
   }
 
+  .experience_handler-label {
+    left: calc(var(--exp-label) + 44px) !important;
+  }
 
   .as-col-4 {
     width: 300px;
@@ -2433,15 +2452,20 @@ a:focus {
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
 
-
   .handler-label.left_p {
-    top: -16px;
-    left: calc(var(--position-of-label) - 40px) !important;
+    top: -17px;
+    left: calc(var(--position-of-label) - 45px) !important;
+    text-align: right;
   }
 
   .handler-label.right_p {
-    top: -16px;
-    left: calc(var(--position-of-label) + 36px) !important;
+    top: -17px;
+    left: calc(var(--position-of-label) + 45px) !important;
+    text-align: left;
+  }
+
+  .experience_handler-label {
+    left: calc(var(--exp-label) + 44px) !important;
   }
 
   .as-col-4 {
@@ -2497,7 +2521,7 @@ a:focus {
 
   .handler,
   .experience_handler {
-    height: 16px;
+    height: 18px;
     top: -8px;
   }
 
@@ -2556,13 +2580,19 @@ a:focus {
 @media only screen and (min-width: 400px) and (max-width: 500px) {
 
   .handler-label.left_p {
-    top: -16px;
-    left: calc(var(--position-of-label) - 40px) !important;
+    top: -18px;
+    left: calc(var(--position-of-label) - 57px) !important;
+    text-align: right;
   }
 
   .handler-label.right_p {
-    top: -16px;
-    left: calc(var(--position-of-label) + 36px) !important;
+    top: -18px;
+    left: calc(var(--position-of-label) + 56px) !important;
+    text-align: left;
+  }
+
+  .experience_handler-label {
+    left: calc(var(--exp-label) + 44px) !important;
   }
 
   .as-col-4 {
@@ -2621,8 +2651,8 @@ a:focus {
 
   .handler,
   .experience_handler {
-    height: 16px;
-    top: -8px;
+    height: 19px;
+    top: -9px;
   }
 
   .black-text {
@@ -2654,23 +2684,44 @@ a:focus {
   .expTooltip {
     margin-top: -12px;
   }
+
+  .section-label.label4 {
+    left: calc(92%) !important;
+  }
+
+  .color-box.box1 {
+    left: calc(31%) !important;
+  }
+
+  .color-box.box2 {
+    left: calc(50%) !important;
+  }
+
+  .color-box.box3 {
+    left: calc(70%) !important;
+  }
+
+  .color-box.box4 {
+    left: calc(91%) !important;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 400px) {
 
-
   .handler-label.left_p {
-    top: -16px;
-    left: calc(var(--position-of-label) - 40px) !important;
+    top: -18px;
+    left: calc(var(--position-of-label) - 57px) !important;
+    text-align: right;
   }
 
   .handler-label.right_p {
-    top: -16px;
-    left: calc(var(--position-of-label) + 36px) !important;
+    top: -18px;
+    left: calc(var(--position-of-label) + 57px) !important;
+    text-align: left;
   }
 
-  .experience_handler-label{
-    left: calc(var(--exp-label) + 5px) !important;
+  .experience_handler-label {
+    left: calc(var(--exp-label) + 44px) !important;
   }
 
   .as-col-4 {
@@ -2716,8 +2767,8 @@ a:focus {
 
   .handler,
   .experience_handler {
-    height: 16px;
-    top: -8px;
+    height: 17px;
+    top: -9px;
   }
 
   .black-text {
@@ -2751,35 +2802,51 @@ a:focus {
   }
 
   .section-label.label1 {
-    left: calc(10%) !important;
+    left: calc(4%) !important;
   }
 
   .section-label.label2 {
-    left: calc(35%) !important;
+    left: calc(30%) !important;
   }
 
   .section-label.label3 {
-    left: calc(64%) !important;
+    left: calc(60%) !important;
   }
 
   .section-label.label4 {
-    left: calc(88%) !important;
+    left: calc(90%) !important;
   }
 
   .color-box.box1 {
-    left: calc(6%) !important;
+    left: calc(1%) !important;
   }
 
   .color-box.box2 {
-    left: calc(32%) !important;
+    left: calc(26%) !important;
   }
 
   .color-box.box3 {
-    left: calc(59%) !important;
+    left: calc(55%) !important;
   }
 
   .color-box.box4 {
-    left: calc(87%) !important;
+    left: calc(83%) !important;
+  }
+
+  .matching-label.match_lab1 {
+    left: calc(4%) !important;
+  }
+
+  .matching-label.match_lab2 {
+    left: calc(30%) !important;
+  }
+
+  .matching-label.match_lab3 {
+    left: calc(59%) !important;
+  }
+
+  .matching-label.match_lab4 {
+    left: calc(85%) !important;
   }
 
   .experience_section-label.label1 {
@@ -2839,7 +2906,7 @@ a:focus {
   .experience-box,
   .expectation-box {
     gap: 5px;
-    font-size: 10px !important;
+    font-size: 8px !important;
     font-weight: 500;
   }
 }

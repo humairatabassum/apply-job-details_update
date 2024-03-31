@@ -1948,16 +1948,16 @@
                                                                                             <span>91-100</span>
                                                                                         </div>
                                                                                         <div class="color-box box1"
-                                                                                            style="background-color: #BCDBFF; left:  calc(35%);">
+                                                                                            style="background-color: #BCDBFF; left:  calc(34%);">
                                                                                         </div>
                                                                                         <div class="color-box box2"
-                                                                                            style="background-color: #7BB7FF; left: calc(55%);">
+                                                                                            style="background-color: #7BB7FF; left: calc(54%);">
                                                                                         </div>
                                                                                         <div class="color-box box3"
-                                                                                            style="background-color: #2280EE; left: calc(75%);">
+                                                                                            style="background-color: #2280EE; left: calc(74%);">
                                                                                         </div>
                                                                                         <div class="color-box box4"
-                                                                                            style="background-color: #2F64A3; left: calc(91%);">
+                                                                                            style="background-color: #2F64A3; left: calc(90%);">
                                                                                         </div>
 
                                                                                         <div class="matching-label match_lab1"
@@ -2080,14 +2080,6 @@
                                                                                         <strong
                                                                                             class="expSalary">60k-80k</strong></span>
                                                                                 </div>
-
-                                                                                <a href="#"
-                                                                                    class="tooltipLink expTooltip"
-                                                                                    class="btn btn-default"
-                                                                                    data-toggle="tooltip"
-                                                                                    data-placement="left"
-                                                                                    title="Tooltip on left"><span
-                                                                                        class="icon-info"></span></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -3695,12 +3687,10 @@ $(document).ready(function () {
             document.documentElement.style.setProperty('--position-of-label', position + 'px');
             if (window.innerWidth < 768) {
                 if (position < 90) {
-                    document.querySelector('.handler-label').style.textAlign = 'right';
                     handlerLabel.style.left = (position + 60) + 'px';
                     handlerLabel.classList.remove('left_p');
                     handlerLabel.classList.add('right_p');
                 } else {
-                    document.querySelector('.handler-label').style.textAlign = 'left';
                     handlerLabel.style.left = (position - 58) + 'px';
                     handlerLabel.classList.remove('right_p');
                     handlerLabel.classList.add('left_p');
@@ -3708,12 +3698,10 @@ $(document).ready(function () {
             }
             else{
                 if (position < 180) {
-                    document.querySelector('.handler-label').style.textAlign = 'right';
                     handlerLabel.style.left = (position + 60) + 'px';
                     handlerLabel.classList.remove('left_p');
                     handlerLabel.classList.add('right_p');
                 } else {
-                    document.querySelector('.handler-label').style.textAlign = 'left';
                     handlerLabel.style.left = (position - 58) + 'px';
                     handlerLabel.classList.remove('right_p');
                     handlerLabel.classList.add('left_p');
@@ -3738,7 +3726,7 @@ $(document).ready(function () {
             experience_handlerLabel.style.left = (position + 10) + 'px';
             experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span class="experience-year">(' + percentage + 'Y)</span>';
         }
-        var positionFromDatabases = 11;
+        var positionFromDatabases = 10;
         setexperience_handlerPosition(positionFromDatabases);
     </script>
 
