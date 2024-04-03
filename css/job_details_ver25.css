@@ -2044,6 +2044,10 @@ a:focus {
   margin-right: 4px;
 }
 
+.sal_exp {
+  width: 175px
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
 
 
@@ -2595,6 +2599,10 @@ a:focus {
     left: calc(var(--exp-label) + 44px) !important;
   }
 
+  .sal_exp {
+    width: 212px
+  }
+
   .as-col-4 {
     width: 60px;
   }
@@ -2908,5 +2916,84 @@ a:focus {
     gap: 5px;
     font-size: 8px !important;
     font-weight: 500;
+  }
+
+  .sal_exp {
+    width: 137px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .row-flex {
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: row !important;
+  }
+
+  .job-preview .ptjwrap :nth-child(1) {
+    order: unset !important;
+  }
+
+  .speedo-box {
+    margin-top: 0px;
+    padding: 8px;
+  }
+
+  .speedometer {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 14px;
+  }
+
+  .low {
+    top: 25px;
+    right: 95px;
+  }
+
+  .high {
+    top: 25px;
+    left: 95px;
+  }
+
+  .zero {
+    top: 52px;
+    right: 80px;
+  }
+
+  .handred {
+    top: 52px;
+    left: 80px;
+  }
+
+  .medium {
+    top: -16px;
+    left: 28px;
+  }
+
+  .score {
+    top: 62px;
+    left: 20px;
+  }
+
+  .needle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 50px solid black;
+    /* border-radius: 42%; */
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+    animation: moveNeedle 2s ease forwards;
+  }
+
+  .needle-bottom {
+    top: 48px;
   }
 }
