@@ -1,0 +1,1641 @@
+.positionName {
+    font-size: 12px;
+}
+
+.jobpostnew .csumheader .cname {
+    position: relative;
+    z-index: 999999;
+}
+
+.positionName .position_title {
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    --c1: #d1fbd0;
+    --c2: #25c220;
+    --c3: #008020;
+}
+
+.speedo-box {
+    margin-top: 10px;
+    margin-bottom: -35px;
+    padding: 0 20px;
+}
+
+.speedometer {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    padding: 16px;
+    border-radius: 50%;
+    background: radial-gradient(#fff 0 0) content-box,
+        conic-gradient(from -90deg,
+            var(--c1) 60deg,
+            var(--c2) 0 120deg,
+            var(--c3) 0 180deg,
+            #0000 0);
+    position: relative;
+}
+
+.needle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 62px solid black;
+    /* border-radius: 42%; */
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom center;
+    animation: moveNeedle 2s ease forwards;
+}
+
+.needle-bottom {
+    position: absolute;
+    top: 60px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+@keyframes moveNeedle {
+    from {
+        transform: translateX(-50%) rotate(-90deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(var(--rotationAngle));
+    }
+}
+
+.score {
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 30px;
+    font-size: 10px !important;
+    font-weight: 600;
+}
+
+.label {
+    position: absolute;
+    font-size: 10px !important;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.low {
+    top: 25px;
+    right: 112px;
+}
+
+.medium {
+    top: -16px;
+    left: 35px;
+}
+
+.high {
+    top: 25px;
+    left: 114px;
+}
+
+.zero {
+    top: 60px;
+    right: 100px;
+}
+
+.handred {
+    top: 60px;
+    left: 96px;
+}
+
+.expect_text {
+    font-weight: 400;
+}
+
+.getBdjobsPro {
+    border: 1px solid #13a10e !important;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.get_pro {
+    color: #13A10E;
+    text-decoration: underline;
+}
+
+.get_pro:hover {
+    color: #13A10E;
+    text-decoration: underline;
+}
+
+.insights_img {
+    margin-bottom: 5px;
+}
+
+.matching_job {
+    border-radius: 4px 4px 0px 0px;
+    /* border-bottom: 0.5px solid #13a10e !important; */
+    padding: 8px 12px;
+    background-color: #fff !important;
+}
+
+.borderChange {
+    border: 0.5px solid #13A10E !important;
+}
+
+.panel-title-insight {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 12px 8px 0 !important;
+}
+
+.InsightsView {
+    display: flex;
+    gap: 5px;
+}
+
+.ianglup {
+    margin-top: 1px;
+}
+
+.res-row {
+    border-top: 0.5px solid #13a10e !important;
+    display: flex;
+    gap: 10px
+}
+
+.insightTitle {
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.applicants {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appliedNumber {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2f64a3;
+}
+
+.tooltipWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.matching-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 24px 0;
+}
+
+.expSalary {
+    color: #B32D7D;
+}
+
+
+
+.experience-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0 24px 0;
+}
+
+.expectation-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appWrap {
+    border-radius: 4px 0px 0px 4px;
+    background: #efffef;
+}
+
+.as-col-4 {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #efffef;
+
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+/* for bar graph  */
+
+.matching-box .bar {
+    width: 450px;
+    height: 20px;
+    position: relative;
+    margin-left: 15px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.section {
+    height: 100%;
+    position: absolute;
+}
+
+.section.section1 {
+    width: calc((50 / 100) * 100%);
+    background-color: #bcdbff;
+}
+
+.section.section2 {
+    width: calc((20 / 100) * 100%);
+    background-color: #7bb7ff;
+    left: calc((50 / 100) * 100%);
+}
+
+.section.section3 {
+    width: calc((20 / 100) * 100%);
+    background-color: #2280ee;
+    left: calc((70 / 100) * 100%);
+}
+
+.section.section4 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: calc((10 / 100) * 100%);
+    background-color: #2f64a3;
+    left: calc((90 / 100) * 100%);
+}
+
+.section-label {
+    position: absolute;
+    bottom: -28px;
+    font-size: 12px;
+    text-align: center;
+    width: calc(100% / 4);
+}
+
+.matching-label {
+    position: absolute;
+    bottom: -48px;
+    font-size: 12px;
+    text-align: center;
+    width: calc(100% / 4);
+    color: #b32d7d;
+}
+
+.section-label span {
+    display: block;
+    width: 100%;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -28px;
+}
+
+.handler {
+    width: 1px;
+    height: 38px;
+    background-color: black;
+    position: absolute;
+    top: -18px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.black-text {
+    position: absolute;
+    top: -21px;
+    left: -13px;
+    color: #000;
+}
+
+.handler-label {
+    text-align: left;
+    text-align: start;
+    width: 100%;
+    position: absolute;
+    top: -38px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #b32d7d;
+    width: 158px;
+}
+
+.handler-label.left_p {
+    text-align: right;
+    left: calc(var(--position-of-label) - 95px) !important;
+}
+
+.handler-label.right_p {
+    text-align: left;
+    left: calc(var(--position-of-label) + 98px) !important;
+}
+
+.paddingMatch {
+    padding: 30px 20px;
+}
+
+.experience_bar {
+    width: 450px;
+    height: 20px;
+    position: relative;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.experience_section {
+    height: 100%;
+    position: absolute;
+}
+
+.experience_section.experience_section1 {
+    width: calc((5 / 15) * 100%);
+    background-color: #fdcdea;
+}
+
+.experience_section.experience_section2 {
+    width: calc((5 / 15) * 100%);
+    background-color: #f981c9;
+    left: calc((2 / 15) * 100%);
+}
+
+.experience_section.experience_section3 {
+    width: calc((5 / 15) * 100%);
+    background-color: #d9409b;
+    left: calc((5 / 15) * 100%);
+}
+
+.experience_section.experience_section4 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: calc((5 / 15) * 100%);
+    background-color: #b32d7d;
+    left: calc((10 / 15) * 100%);
+}
+
+.experience_section-label {
+    position: absolute;
+    bottom: -28px;
+    font-size: 12px;
+    text-align: center;
+    width: calc(100% / 4);
+}
+
+.experience-label {
+    position: absolute;
+    bottom: -48px;
+    font-size: 12px;
+    text-align: center;
+    width: calc(100% / 4);
+    color: #b32d7d;
+}
+
+.experience_section-label span {
+    display: block;
+    width: 100%;
+}
+
+.experience-color-box {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -28px;
+}
+
+.experience_handler {
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.experience_handler-label {
+    display: flex;
+    position: absolute;
+    top: -32px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #b32d7d;
+}
+
+.experience-black-text {
+    color: #000;
+    font-size: 16px;
+}
+
+.tooltipLink {
+    color: black;
+    text-decoration: none;
+    margin: 2px 4px 0 6px;
+}
+
+.sal_exp {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.experience-year {
+    position: absolute;
+    top: 4px;
+    left: 31px;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+
+    .handler-label.left_p {
+        top: -31px;
+        left: calc(var(--position-of-label) - 70px) !important;
+        text-align: right;
+    }
+
+    .handler-label.right_p {
+        text-align: left;
+        top: -31px;
+        left: calc(var(--position-of-label) + 72px) !important;
+    }
+
+    .experience_handler-label {
+        left: calc(var(--exp-label) + 50px) !important;
+    }
+
+    .as-col-4 {
+        width: 300px;
+    }
+
+
+    .matching-box .bar,
+    .experience_bar {
+        width: 300px;
+        height: 15px;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 12px;
+        bottom: -22px;
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 15px;
+        height: 15px;
+        bottom: -22px;
+    }
+
+    .matching-label,
+    .experience-label {
+        font-size: 12px;
+        bottom: -38px;
+    }
+
+    .handler,
+    .experience_handler {
+        height: 32px;
+        top: -17px;
+    }
+
+    .black-text {
+        top: -14px;
+        left: -7px;
+    }
+
+    .handler-label,
+    .experience_handler-label {
+        top: -30px;
+        width: 120px;
+    }
+
+    .handler-label,
+    .experience-black-text,
+    .black-text {
+
+        font-size: 10px !important;
+    }
+
+    .experience-year {
+        font-size: 10px !important;
+    }
+
+    .tooltipLink {
+        font-size: 12px;
+    }
+
+    .expTooltip {
+        margin-top: -12px;
+    }
+
+    .experience-box,
+    .matching-box {
+        margin-right: 5px;
+        gap: 5px;
+    }
+
+    .section-label.label1 {
+        left: calc(14%) !important;
+    }
+
+    .section-label.label2 {
+        left: calc(37%) !important;
+    }
+
+    .section-label.label3 {
+        left: calc(61%) !important;
+    }
+
+    .section-label.label4 {
+        left: calc(85%) !important;
+    }
+
+    .color-box.box1 {
+        left: calc(15%) !important;
+    }
+
+    .color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .color-box.box3 {
+        left: calc(62%) !important;
+    }
+
+    .color-box.box4 {
+        left: calc(85%) !important;
+    }
+
+    .matching-label.match_lab1 {
+        left: calc(10%) !important;
+    }
+
+    .matching-label.match_lab2 {
+        left: calc(37%) !important;
+    }
+
+    .matching-label.match_lab3 {
+        left: calc(62%) !important;
+    }
+
+    .matching-label.match_lab4 {
+        left: calc(85%) !important;
+    }
+
+    .experience_section-label.label1 {
+        left: calc(12%) !important;
+    }
+
+    .experience_section-label.label2 {
+        left: calc(35%) !important;
+    }
+
+    .experience_section-label.label3 {
+        left: calc(60%) !important;
+    }
+
+    .experience_section-label.label4 {
+        left: calc(82%) !important;
+    }
+
+    .experience-color-box.box1 {
+        left: calc(15%) !important;
+    }
+
+    .experience-color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .experience-color-box.box3 {
+        left: calc(62%) !important;
+    }
+
+    .experience-color-box.box4 {
+        left: calc(85%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(13%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(36%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(61%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(86%) !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+    .handler-label.left_p {
+        top: -24px;
+        left: calc(var(--position-of-label) - 62px) !important;
+        text-align: right;
+    }
+
+    .handler-label.right_p {
+        top: -22px;
+        left: calc(var(--position-of-label) + 68px) !important;
+        text-align: left;
+    }
+
+    .experience_handler-label {
+        left: calc(var(--exp-label) + 44px) !important;
+    }
+
+    .experience-year {
+        position: absolute;
+        top: 2px;
+        left: 23px;
+    }
+
+    .as-col-4 {
+        width: 300px;
+    }
+
+
+    .matching-box .bar,
+    .experience_bar {
+        width: 210px;
+        height: 10px;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 12px;
+        bottom: -18px;
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 8px;
+        height: 8px;
+        bottom: -16px;
+    }
+
+    .matching-label,
+    .experience-label {
+        font-size: 12px;
+        bottom: -30px;
+    }
+
+    .handler,
+    .experience_handler {
+        height: 23px;
+        top: -13px;
+    }
+
+    .black-text {
+        top: -14px;
+        left: -7px;
+    }
+
+    .handler-label,
+    .experience_handler-label {
+        top: -27px;
+        width: 105px;
+    }
+
+    .experience-black-text,
+    .black-text {
+
+        font-size: 12px !important;
+    }
+
+    .experience-year {
+        font-size: 10px !important;
+    }
+
+    .tooltipLink {
+        font-size: 12px;
+    }
+
+    .expTooltip {
+        margin-top: -12px;
+    }
+
+    .experience-box,
+    .matching-box {
+        margin-right: 5px;
+        gap: 5px;
+    }
+
+    .appliedNumber {
+        font-size: 20px;
+    }
+
+    .paddingMatch {
+        padding: 20px 10px 20px 0;
+    }
+
+    .matching-box,
+    .experience-box,
+    .expectation-box {
+        font-size: 12px !important;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 12px;
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 12px;
+        height: 12px;
+    }
+
+    .handler-label {
+        font-size: 8px !important;
+    }
+
+
+    .section-label.label1 {
+        left: calc(16%) !important;
+    }
+
+    .section-label.label2 {
+        left: calc(40%) !important;
+    }
+
+    .section-label.label3 {
+        left: calc(65%) !important;
+    }
+
+    .section-label.label4 {
+        left: calc(91%) !important;
+    }
+
+    .color-box.box1 {
+        left: calc(15%) !important;
+    }
+
+    .color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .color-box.box3 {
+        left: calc(63%) !important;
+    }
+
+    .color-box.box4 {
+        left: calc(87%) !important;
+    }
+
+    .matching-label.match_lab1 {
+        left: calc(10%) !important;
+    }
+
+    .matching-label.match_lab2 {
+        left: calc(37%) !important;
+    }
+
+    .matching-label.match_lab3 {
+        left: calc(62%) !important;
+    }
+
+    .matching-label.match_lab4 {
+        left: calc(85%) !important;
+    }
+
+    .experience_section-label.label1 {
+        left: calc(18%) !important;
+    }
+
+    .experience_section-label.label2 {
+        left: calc(42%) !important;
+    }
+
+    .experience_section-label.label3 {
+        left: calc(65%) !important;
+    }
+
+    .experience_section-label.label4 {
+        left: calc(86%) !important;
+    }
+
+    .experience-color-box.box1 {
+        left: calc(15%) !important;
+    }
+
+    .experience-color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .experience-color-box.box3 {
+        left: calc(62%) !important;
+    }
+
+    .experience-color-box.box4 {
+        left: calc(85%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(13%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(36%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(61%) !important;
+    }
+
+    .experience-label.ex_lab1 {
+        left: calc(86%) !important;
+    }
+
+    .matching-box .bar {
+        margin-left: 7px !important;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+
+    .handler-label.left_p {
+        top: -20px;
+        left: calc(var(--position-of-label) - 53px) !important;
+        text-align: right;
+    }
+
+    .handler-label.right_p {
+        top: -17px;
+        left: calc(var(--position-of-label) + 53px) !important;
+        text-align: left;
+    }
+
+    .experience_handler-label {
+        left: calc(var(--exp-label) + 29px) !important;
+    }
+
+    .as-col-4 {
+        width: 180px;
+    }
+
+    .as-col-8 {
+        width: 410px;
+    }
+
+    .appliedNumber {
+        font-size: 14px;
+    }
+
+    .appliedCount {
+        font-size: 10px;
+    }
+
+    .matching-box .bar,
+    .experience_bar {
+        width: 220px;
+        height: 10px;
+    }
+
+    .matching-box,
+    .experience-box,
+    .expectation-box {
+        font-size: 12px !important;
+        margin-right: 5px;
+        gap: 5px;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 8px;
+        bottom: -18px;
+
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 8px;
+        height: 8px;
+        bottom: -16px;
+    }
+
+    .matching-label,
+    .experience-label {
+        font-size: 8px;
+        bottom: -30px;
+    }
+
+    .handler,
+    .experience_handler {
+        height: 18px;
+        top: -8px;
+    }
+
+    .black-text {
+        top: -15px;
+        left: -11px;
+    }
+
+    .handler-label,
+    .experience_handler-label {
+        top: -24px;
+        width: 79px;
+    }
+
+
+
+    .handler-label {
+        font-size: 6px !important;
+    }
+
+    .experience-black-text,
+    .black-text {
+        font-size: 12px !important;
+    }
+
+    .experience-year {
+        font-size: 6px !important;
+        position: absolute;
+        top: 6px;
+        left: 23px;
+    }
+
+
+    .tooltipLink {
+        font-size: 8px;
+    }
+
+    .expTooltip {
+        margin-top: -12px;
+    }
+
+    .paddingMatch {
+        padding: 10px 5px 20px 0;
+    }
+
+    .section-label.label3 {
+        left: calc(68%) !important;
+    }
+
+    .color-box.box1 {
+        left: calc(33%) !important;
+    }
+
+    .color-box.box2 {
+        left: calc(53%) !important;
+    }
+
+    .color-box.box3 {
+        left: calc(71%) !important;
+    }
+
+    .color-box.box4 {
+        left: calc(89%) !important;
+    }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+
+    .handler-label.left_p {
+        top: -19px;
+        left: calc(var(--position-of-label) - 60px) !important;
+        text-align: right;
+    }
+
+    .handler-label.right_p {
+        top: -18px;
+        left: calc(var(--position-of-label) + 62px) !important;
+        text-align: left;
+    }
+
+    .experience_handler-label {
+        left: calc(var(--exp-label) + 41px) !important;
+    }
+
+    .as-col-4 {
+        width: 60px;
+    }
+
+    .as-col-4 {
+        width: 310px;
+    }
+
+    .appliedNumber {
+        font-size: 14px;
+    }
+
+    .appliedCount {
+        font-size: 10px;
+    }
+
+    .paddingMatch {
+        padding: 15px 10px 15px 0;
+    }
+
+    .matching-box .bar,
+    .experience_bar {
+        width: 162px;
+        height: 10px;
+    }
+
+    .matching-box,
+    .experience-box,
+    .expectation-box {
+        font-size: 10px !important;
+        margin-right: 5px;
+        gap: 5px;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 8px;
+        bottom: -18px;
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 8px;
+        height: 8px;
+        bottom: -16px;
+    }
+
+    .matching-label,
+    .experience-label {
+        font-size: 8px;
+        bottom: -30px;
+    }
+
+    .handler,
+    .experience_handler {
+        height: 19px;
+        top: -9px;
+    }
+
+    .black-text {
+        top: -13px;
+        left: -8px;
+    }
+
+    .experience-year {
+        position: absolute;
+        top: 4px;
+        left: 19px;
+    }
+
+    .handler-label,
+    .experience_handler-label {
+        top: -22px;
+        width: 100px;
+    }
+
+    .handler-label,
+    .experience-black-text,
+    .black-text {
+        font-size: 10px !important;
+    }
+
+    .handler-label {
+        font-size: 6px !important;
+    }
+
+    .experience-year {
+        font-size: 6px !important;
+    }
+
+    .tooltipLink {
+        font-size: 8px;
+    }
+
+    .expTooltip {
+        margin-top: -12px;
+    }
+
+    .section-label.label1 {
+        left: calc(21%) !important;
+    }
+
+    .section-label.label2 {
+        left: calc(46%) !important;
+    }
+
+    .section-label.label3 {
+        left: calc(69%) !important;
+    }
+
+    .section-label.label4 {
+        left: calc(93%) !important;
+    }
+
+    .color-box.box1 {
+        left: calc(22%) !important;
+    }
+
+    .color-box.box2 {
+        left: calc(45%) !important;
+    }
+
+    .color-box.box3 {
+        left: calc(69%) !important;
+    }
+
+    .color-box.box4 {
+        left: calc(91%) !important;
+    }
+
+    .experience_section-label.label1 {
+        left: calc(12%) !important;
+    }
+
+    .experience_section-label.label2 {
+        left: calc(36%) !important;
+    }
+
+    .experience_section-label.label3 {
+        left: calc(61%) !important;
+    }
+
+    .experience_section-label.label4 {
+        left: calc(87%) !important;
+    }
+
+    .experience-color-box.box1 {
+        left: calc(14%) !important;
+    }
+
+    .experience-color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .experience-color-box.box3 {
+        left: calc(62%) !important;
+    }
+
+    .experience-color-box.box4 {
+        left: calc(89%) !important;
+    }
+
+    .insights_img {
+        margin-bottom: 5px;
+        height: 18px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+
+    .handler-label.left_p {
+        top: -18px;
+        left: calc(var(--position-of-label) - 60px) !important;
+        text-align: right;
+    }
+
+    .handler-label.right_p {
+        top: -18px;
+        left: calc(var(--position-of-label) + 60px) !important;
+        text-align: left;
+    }
+
+    .experience_handler-label {
+        left: calc(var(--exp-label) + 43px) !important;
+    }
+
+    .as-col-4 {
+        width: 150px;
+    }
+
+    .appliedNumber {
+        font-size: 14px;
+    }
+
+    .appliedCount {
+        font-size: 10px;
+    }
+
+    .paddingMatch {
+        padding: 15px 10px 15px 0;
+    }
+
+    .section-label,
+    .experience_section-label {
+        font-size: 8px;
+        bottom: -18px;
+    }
+
+    .color-box,
+    .experience-color-box {
+        width: 8px;
+        height: 8px;
+        bottom: -16px;
+    }
+
+    .matching-box .bar,
+    .experience_bar {
+        width: 116px;
+        height: 8px;
+    }
+
+    .matching-label,
+    .experience-label {
+        font-size: 8px;
+        bottom: -30px;
+    }
+
+    .handler,
+    .experience_handler {
+        height: 17px;
+        top: -9px;
+    }
+
+    .black-text {
+        top: -10px;
+        left: -6px;
+    }
+
+    .handler-label,
+    .experience_handler-label {
+        top: -18px;
+        width: 100px;
+    }
+
+    .experience-black-text,
+    .black-text {
+
+        font-size: 8px !important;
+    }
+
+    .handler-label {
+
+        font-size: 6px !important;
+    }
+
+    .experience-year {
+        font-size: 6px !important;
+        position: absolute;
+        top: 2px;
+        left: 16px;
+    }
+
+    .tooltipLink {
+        font-size: 8px;
+    }
+
+    .expTooltip {
+        margin-top: -12px;
+    }
+
+    .section-label.label1 {
+        left: calc(-1%) !important;
+    }
+
+    .section-label.label2 {
+        left: calc(28%) !important;
+    }
+
+    .section-label.label3 {
+        left: calc(60%) !important;
+    }
+
+    .section-label.label4 {
+        left: calc(90%) !important;
+    }
+
+    .color-box.box1 {
+        left: calc(-4%) !important;
+    }
+
+    .color-box.box2 {
+        left: calc(24%) !important;
+    }
+
+    .color-box.box3 {
+        left: calc(55%) !important;
+    }
+
+    .color-box.box4 {
+        left: calc(83%) !important;
+    }
+
+    .matching-label.match_lab1 {
+        left: calc(4%) !important;
+    }
+
+    .matching-label.match_lab2 {
+        left: calc(30%) !important;
+    }
+
+    .matching-label.match_lab3 {
+        left: calc(59%) !important;
+    }
+
+    .matching-label.match_lab4 {
+        left: calc(85%) !important;
+    }
+
+    .experience_section-label.label1 {
+        left: calc(16%) !important;
+    }
+
+    .experience_section-label.label2 {
+        left: calc(40%) !important;
+    }
+
+    .experience_section-label.label3 {
+        left: calc(65%) !important;
+    }
+
+    .experience_section-label.label4 {
+        left: calc(91%) !important;
+    }
+
+    .experience-color-box.box1 {
+        left: calc(14%) !important;
+    }
+
+    .experience-color-box.box2 {
+        left: calc(38%) !important;
+    }
+
+    .experience-color-box.box3 {
+        left: calc(62%) !important;
+    }
+
+    .experience-color-box.box4 {
+        left: calc(89%) !important;
+    }
+
+
+    .appWrap.applicants {
+        text-align: center;
+        width: 63px;
+    }
+
+    .res-padding {
+        padding: 0;
+    }
+
+    .insightTitle,
+    .InsightsView {
+        font-size: 8px !important;
+    }
+
+    .panel-title-insight {
+        margin: 0px 8px 0px 0 !important;
+    }
+
+    .matching_job {
+        padding: 5px 8px;
+    }
+
+    .matching-box img,
+    .experience-box img,
+    .expectation-box img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .matching-box,
+    .experience-box,
+    .expectation-box {
+        gap: 5px;
+        font-size: 8px !important;
+    }
+
+    .insights_img {
+        margin-bottom: 5px;
+        height: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .expectation-box img {
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .insights_img {
+        margin-bottom: 5px;
+        height: 18px;
+    }
+
+    .getBdjobsPro {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .tooltipWrap {
+        margin-bottom: 20px;
+    }
+
+    .row-flex {
+        display: flex !important;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .job-preview .ptjwrap :nth-child(1) {
+        order: unset !important;
+    }
+
+    .speedo-box {
+        margin-top: 20px;
+        padding: 8px;
+    }
+
+    .speedometer {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 14px;
+    }
+
+    .low {
+        top: 25px;
+        right: 95px;
+    }
+
+    .high {
+        top: 25px;
+        left: 95px;
+    }
+
+    .zero {
+        top: 52px;
+        right: 80px;
+    }
+
+    .handred {
+        top: 52px;
+        left: 80px;
+    }
+
+    .medium {
+        top: -16px;
+        left: 28px;
+    }
+
+    .score {
+        top: 62px;
+        left: 20px;
+    }
+
+    .needle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 50px solid black;
+        /* border-radius: 42%; */
+        left: 50%;
+        bottom: 50%;
+        transform: translateX(-50%);
+        transform-origin: bottom center;
+        animation: moveNeedle 2s ease forwards;
+    }
+
+    .needle-bottom {
+        top: 48px;
+    }
+
+    .matching-box .bar {
+        margin-left: 7px !important;
+    }
+
+    .expectation-box img {
+        margin-bottom: 10px;
+    }
+
+    .insightTitle,
+    .InsightsView {
+        font-size: 12px;
+    }
+
+    .panel-title-insight {
+        margin: 0px 8px 0px 0 !important;
+    }
+
+    .matching_job {
+        padding: 5px 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+
+    .jobpostnew .csumheader .cname {
+        font-size: 16px;
+    }
+
+    .padding-right-0 {
+        padding-right: 0 !important;
+    }
+
+    .speedometer {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        padding: 13px;
+        border-radius: 50%;
+        background: radial-gradient(#fff 0 0) content-box,
+            conic-gradient(from -90deg,
+                var(--c1) 60deg,
+                var(--c2) 0 120deg,
+                var(--c3) 0 180deg,
+                #0000 0);
+        position: relative;
+    }
+
+    .needle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-bottom: 40px solid black;
+    }
+
+    .needle-bottom {
+        position: absolute;
+        top: 39px;
+        left: -4px;
+        width: 8px;
+        height: 8px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .score {
+        position: absolute;
+        text-align: center;
+        top: 54px;
+        left: 14px;
+        font-size: 8px !important;
+        font-weight: 600;
+    }
+
+    .label {
+        position: absolute;
+        font-size: 8px !important;
+        font-weight: 400;
+        color: #797979;
+        text-align: center;
+    }
+
+    .low {
+        top: 18px;
+        right: 76px;
+    }
+
+    .medium {
+        top: -14px;
+        left: 16px;
+    }
+
+    .high {
+        top: 18px;
+        left: 76px;
+    }
+
+    .zero {
+        top: 42px;
+        right: 60px;
+    }
+
+    .handred {
+        top: 42px;
+        left: 60px;
+    }
+}
+
+.margin-top-0 {
+    margin-top: -6px;
+}

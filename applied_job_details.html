@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="./css/accessible-slick-theme.min.css" />
     <link rel="stylesheet" href="./css/slick-theme.min.css" />
     <link rel="stylesheet" href="./css/tenmins_course.css" />
+    <link rel="stylesheet" href="./css/progress_graph.css" />
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
 
     <!--Common JQuery and Javascript-->
@@ -1552,37 +1553,44 @@
                                         <div>
                                             <!-- job, company header info -->
                                             <div class="row ptjwrap my-4 csumheader row-flex">
-                                                <div class="col-sm-6 ">
-                                                    <div class="complogo">
-                                                        <img src="//corporate.bdjobs.com/logos/122308_0.png" alt=""
-                                                            title="company logo">
-                                                    </div>
-                                                    <h2 class="cname">Spectrum IT Solution Ltd.<span></span></h2>
+                                                <div class="col-sm-12 padding-right-0">
+                                                    <div class="row row-flex">
+                                                        <div class="col-sm-6">
+                                                            <div class="complogo">
+                                                                <img src="//corporate.bdjobs.com/logos/122308_0.png"
+                                                                    alt="" title="company logo">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="col-sm-6 d-flex justify-content-end padding-right-0">
 
+                                                            <!-- changes by humaira  -->
+
+                                                            <div class="speedo-box">
+                                                                <div class="speedometer">
+                                                                    <div class="label low">Low</div>
+                                                                    <div class="label medium">Medium</div>
+                                                                    <div class="label high">High</div>
+                                                                    <div class="label zero">0%</div>
+                                                                    <div class="label handred">100%</div>
+                                                                    <div class="needle" id="dynamicScore">
+                                                                        <div class="needle-bottom"></div>
+                                                                    </div>
+                                                                    <span class="score" id="dynamicPercentage">20%
+                                                                        matching</span>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <h2 class="cname">Spectrum IT Solution Ltd.<span></span>
+                                                    </h2>
                                                     <h2 class="jtitle">Front End Developer (React)</h2>
 
                                                     <!-- IsPWDUserLogin: 0-->
                                                 </div>
-                                                <div class="col-sm-6 d-flex align-items-center justify-content-end">
 
-                                                    <!-- changes by humaira  -->
-
-                                                    <div class="speedo-box">
-                                                        <div class="speedometer">
-                                                            <div class="label low">Low</div>
-                                                            <div class="label medium">Medium</div>
-                                                            <div class="label high">High</div>
-                                                            <div class="label zero">0%</div>
-                                                            <div class="label handred">100%</div>
-                                                            <div class="needle" id="dynamicScore">
-                                                                <div class="needle-bottom"></div>
-                                                            </div>
-                                                            <span class="score" id="dynamicPercentage">20%
-                                                                matching</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
                                             </div>
 
                                             <!-- deadline, apply btn -->
@@ -1873,9 +1881,21 @@
                                                 </div>
                                             </div>
 
-                                            <!-- cv info -->
-
                                             <!-- changes by humaira  -->
+
+                                            <div class="row  mb-3">
+                                                <div class="col-sm-12">
+
+                                                    <div class="getBdjobsPro">
+                                                        <div><img src="./images/insight.svg" class="insights_img">
+                                                            <span>To access Application Insights <a href="#"
+                                                                    class="get_pro">Get Bdjobs Pro</a></span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
                                             <!-- matching, expectations -->
                                             <div class="row  mb-3">
                                                 <div class="col-sm-12">
@@ -1890,8 +1910,10 @@
                                                                         aria-expanded="true"
                                                                         aria-controls="collapseOne">
                                                                         <div class="insightTitle">
-                                                                            <div><img src="./images/insight.svg">
-                                                                                Application Insights</div>
+                                                                            <div><img src="./images/insight.svg"
+                                                                                    class="insights_img">
+                                                                                <span>Application Insights</span>
+                                                                            </div>
                                                                             <div class="InsightsView">
                                                                                 <span>View</span><i
                                                                                     class="icon-angle-up ianglup"></i>
@@ -1982,7 +2004,7 @@
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <a href="#" class="tooltipLink"
+                                                                                <a href="" class="tooltipLink"
                                                                                     data-toggle="tooltip"
                                                                                     data-placement="left"
                                                                                     title="Tooltip on left"><span
@@ -1991,7 +2013,7 @@
                                                                             <div class="tooltipWrap">
                                                                                 <div class="experience-box">
                                                                                     <img src="./images/Frame (1).svg">
-                                                                                    <span>Experience(Y):</span>
+                                                                                    <span>Experience(yr):</span>
 
                                                                                     <div class="experience_bar"
                                                                                         id="experience_bar">
@@ -2008,7 +2030,7 @@
                                                                                             class="experience_section experience_section4">
                                                                                         </div>
                                                                                         <div class="experience_section-label label1"
-                                                                                            style="left: calc(-1%);">
+                                                                                            style="left: calc(0%);">
                                                                                             <span>0-2</span>
                                                                                         </div>
                                                                                         <div class="experience_section-label label2"
@@ -2016,7 +2038,7 @@
                                                                                             <span>2-5</span>
                                                                                         </div>
                                                                                         <div class="experience_section-label label3"
-                                                                                            style="left: calc(40%);">
+                                                                                            style="left: calc(41%);">
                                                                                             <span>5-10</span>
                                                                                         </div>
                                                                                         <div class="experience_section-label label4"
@@ -2060,7 +2082,8 @@
                                                                                     </div>
                                                                                 </div>
 
-                                                                                <a href="#" class="tooltipLink"
+                                                                                <a href=""
+                                                                                    class="tooltipLink margin-top-0"
                                                                                     class="btn btn-default"
                                                                                     data-toggle="tooltip"
                                                                                     data-placement="left"
@@ -2070,11 +2093,15 @@
                                                                             <div class="tooltipWrap">
                                                                                 <div class="expectation-box">
                                                                                     <img src="./images/Frame (2).svg">
-                                                                                    <span class="sal_exp">Salary Expectations:</span>
-                                                                                    <span>Most applicants preferred
+                                                                                    <div class="expect_text"><span
+                                                                                            class="sal_exp">Salary
+                                                                                            Expectations:</span>
+                                                                                        Most applicants preferred
                                                                                         salary range
                                                                                         <strong
-                                                                                            class="expSalary">60k-80k</strong></span>
+                                                                                            class="expSalary">60k-80k</strong>
+                                                                                    </div>
+
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -2085,7 +2112,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- end  -->
+
+                                            <!--changes end  -->
+
+
 
                                             <!-- job contents -->
                                             <div class="row mb-4">
@@ -3659,9 +3689,9 @@ $(document).ready(function () {
         function setNeedleRotation(score) {
             const rotationAngle = (score / 100) * 180 - 90;
             speedometerElement.style.setProperty('--rotationAngle', `${rotationAngle}deg`);
-            percentageElement.textContent = `${score}% matching`;
+            percentageElement.textContent = `Matched ${score}% `;
         }
-        setNeedleRotation(10);
+        setNeedleRotation(50);
 
 
         //toggle-icon js
@@ -3692,7 +3722,7 @@ $(document).ready(function () {
                     handlerLabel.classList.add('left_p');
                 }
             }
-            else{
+            else {
                 if (position < 180) {
                     handlerLabel.style.left = (position + 60) + 'px';
                     handlerLabel.classList.remove('left_p');
@@ -3705,7 +3735,7 @@ $(document).ready(function () {
             }
             handlerLabel.innerHTML = ' (' + percentage + '% applicants have more matching than you) ';
         }
-        var positionFromDatabase = 90;
+        var positionFromDatabase = 20;
         setHandlerPosition(positionFromDatabase);
 
 
@@ -3719,8 +3749,8 @@ $(document).ready(function () {
             experience_handler.style.left = position + 'px';
 
             document.documentElement.style.setProperty('--exp-label', position + 'px');
-            experience_handlerLabel.style.left = (position + 10) + 'px';
-            experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span class="experience-year">(' + percentage + 'Y)</span>';
+            experience_handlerLabel.style.left = (position) + 'px';
+            experience_handlerLabel.innerHTML = '<span class="experience-black-text">You</span><span class="experience-year">(' + percentage + 'yr)</span>';
         }
         var positionFromDatabases = 10;
         setexperience_handlerPosition(positionFromDatabases);

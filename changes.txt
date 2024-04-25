@@ -4,5 +4,5 @@ changes search by -
 2.new js added by humaira
 
 
-update css file-
-job_details_ver25.css
+add css file-
+progress_graph.css
